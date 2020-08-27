@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a5382ae-b677-485d-b5d0-c0ab4b286b18" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="E:\Go" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1dWOpHoZmSmf892sYQOu3G9QBKy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cmd/hello" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GoWork\src\sapi\cmd\hello\config" />
+      <recent name="E:\GoWork\src\sapi\cmd\hello\init" />
+      <recent name="E:\GoWork\src\sapi\cmd\hello" />
+      <recent name="E:\GoWork\src\sapi\pkg\client\grpc" />
+      <recent name="E:\GoWork\src\sapi\pkg\client\etcdv3" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GoWork\src\sapi\cmd\hello\init" />
+      <recent name="E:\GoWork\src\sapi\ph" />
+      <recent name="E:\GoWork\src\sapi\cmd\grpc_server" />
+      <recent name="E:\GoWork\src\sapi\pkg\client" />
+      <recent name="E:\GoWork\src\sapi\pkg\oauth2\server\error" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build sapi/cmd/hello">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="sapi" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/cmd/test2/main.go" />
+      <package value="sapi" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build sapi/cmd/grpc_client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="sapi" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="sapi/cmd/grpc_client" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build sapi/cmd/hello" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="sapi" />
+      <working_directory value="$PROJECT_DIR$/cmd/hello" />
+      <kind value="PACKAGE" />
+      <package value="sapi/cmd/hello" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build sapi/cmd/test2" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="sapi" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="sapi/cmd/test2" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build sapi/cmd/test3" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="sapi" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="sapi/cmd/test3" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build sapi/cmd/test4" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="sapi" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="sapi/cmd/test4" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build sapi.go" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="sapi" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/cmd/sapi/sapi.go" />
+      <package value="sapi" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build sapi.go" />
+      <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Build.go build sapi/cmd/grpc_client" />
+      <item itemvalue="Go Build.go build sapi/cmd/test2" />
+      <item itemvalue="Go Build.go build sapi/cmd/test3" />
+      <item itemvalue="Go Build.go build sapi/cmd/test4" />
+      <item itemvalue="Go Build.go build sapi/cmd/hello" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build sapi/cmd/hello" />
+        <item itemvalue="Go Build.go build sapi/cmd/grpc_client" />
+        <item itemvalue="Go Build.go build sapi/cmd/test4" />
+        <item itemvalue="Go Build.go build sapi/cmd/test3" />
+        <item itemvalue="Go Build.go build sapi/cmd/test2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>direct</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="392" y="87" key="#GOROOT" timestamp="1592538466924">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="87" key="#GOROOT/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1592538466924" />
+    <state x="392" y="87" key="#Inspections" timestamp="1597110879845">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="87" key="#Inspections/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1597110879845" />
+    <state x="437" y="147" width="1092" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598512152443">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="437" y="147" width="1092" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1598512152443" />
+    <state x="349" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1594801342804" />
+    <state x="517" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598235461227">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="517" y="231" key="#com.intellij.fileTypes.FileTypeChooser/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1598235461227" />
+    <state x="508" y="63" key="#go_build_main.go" timestamp="1594351313333">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="508" y="63" key="#go_build_main.go/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1594351313333" />
+    <state x="508" y="71" key="#go_build_sapi/cmd/oath2_server" timestamp="1597195029142">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="508" y="71" key="#go_build_sapi/cmd/oath2_server/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1597195029142" />
+    <state x="508" y="71" key="#go_build_sapi/cmd/sapi" timestamp="1594274837457">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="508" y="71" key="#go_build_sapi/cmd/sapi/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1594274837457" />
+    <state x="508" y="72" key="#go_build_sapi_sapi.go" timestamp="1592620440051">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="508" y="72" key="#go_build_sapi_sapi.go/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1592620440051" />
+    <state x="147" y="183" key="FileChooserDialogImpl" timestamp="1598512150713">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="147" y="183" key="FileChooserDialogImpl/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1598512150713" />
+    <state width="1556" height="180" key="GridCell.Tab.0.bottom" timestamp="1598525607781">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="180" key="GridCell.Tab.0.bottom/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1598525607781" />
+    <state width="1556" height="215" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1594801424080" />
+    <state width="1876" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594958502381" />
+    <state width="1556" height="180" key="GridCell.Tab.0.center" timestamp="1598525607781">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="180" key="GridCell.Tab.0.center/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1598525607781" />
+    <state width="1556" height="215" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1594801424080" />
+    <state width="1876" height="295" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594958502381" />
+    <state width="1556" height="180" key="GridCell.Tab.0.left" timestamp="1598525607780">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="180" key="GridCell.Tab.0.left/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1598525607780" />
+    <state width="1556" height="215" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1594801424079" />
+    <state width="1876" height="295" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594958502380" />
+    <state width="1556" height="180" key="GridCell.Tab.0.right" timestamp="1598525607781">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="180" key="GridCell.Tab.0.right/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1598525607781" />
+    <state width="1556" height="215" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1594801424080" />
+    <state width="1876" height="295" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594958502381" />
+    <state width="1556" height="268" key="GridCell.Tab.1.bottom" timestamp="1595672042178">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="268" key="GridCell.Tab.1.bottom/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1595672042178" />
+    <state width="1556" height="268" key="GridCell.Tab.1.center" timestamp="1595672042175">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="268" key="GridCell.Tab.1.center/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1595672042175" />
+    <state width="1556" height="268" key="GridCell.Tab.1.left" timestamp="1595672042175">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="268" key="GridCell.Tab.1.left/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1595672042175" />
+    <state width="1556" height="268" key="GridCell.Tab.1.right" timestamp="1595672042177">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="268" key="GridCell.Tab.1.right/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1595672042177" />
+    <state x="395" y="70" key="SettingsEditor" timestamp="1598235613039">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="395" y="70" key="SettingsEditor/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1598235613039" />
+    <state x="100" y="100" width="1400" height="660" key="dock-window-1" timestamp="1594344685330">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="100" y="100" width="1400" height="660" key="dock-window-1/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1594344685330" />
+    <state x="100" y="100" width="1400" height="660" key="dock-window-2" timestamp="1594344685331">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="100" y="100" width="1400" height="660" key="dock-window-2/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1594344685331" />
+    <state x="476" y="166" width="647" height="528" key="find.popup" timestamp="1596780315451">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="476" y="166" width="647" height="528" key="find.popup/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1596780315451" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1597809309629">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1597809309629" />
+  </component>
+</project>

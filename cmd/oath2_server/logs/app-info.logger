@@ -1,0 +1,123 @@
+{"L":"INFO","T":"2020-07-31T14:03:29.793+0800","C":"oauth2/oauth2.go:107","M":"=============================="}
+{"L":"INFO","T":"2020-07-31T14:19:20.065+0800","C":"oauth2/oauth2.go:107","M":"=============================="}
+{"L":"INFO","T":"2020-07-31T14:19:27.985+0800","C":"oath2_server/main.go:54","M":""}
+{"L":"INFO","T":"2020-07-31T14:20:16.583+0800","C":"oath2_server/main.go:54","M":""}
+{"L":"INFO","T":"2020-07-31T14:23:00.641+0800","C":"oath2_server/main.go:54","M":"http://localhost:9098/oauth2_client"}
+{"L":"INFO","T":"2020-07-31T14:23:07.887+0800","C":"oath2_server/main.go:54","M":"http://localhost:9098/oauth2_client"}
+{"L":"INFO","T":"2020-07-31T14:23:46.802+0800","C":"oath2_server/main.go:54","M":"http://localhost:9098/oauth2_client"}
+{"L":"INFO","T":"2020-07-31T14:26:21.324+0800","C":"oath2_server/main.go:54","M":"http://localhost:9094/oauth2_client"}
+{"L":"INFO","T":"2020-07-31T14:27:10.210+0800","C":"oath2_server/main.go:54","M":"http://localhost:9094/oauth2_client"}
+{"L":"INFO","T":"2020-07-31T14:27:10.470+0800","C":"oath2_server/main.go:54","M":"http://localhost:9094/oauth2_client"}
+{"L":"INFO","T":"2020-07-31T14:28:42.222+0800","C":"oath2_server/main.go:54","M":"http://localhost:9094/oauth2_client"}
+{"L":"INFO","T":"2020-07-31T14:29:43.640+0800","C":"oath2_server/main.go:54","M":"http://localhost:9094/oauth2_client"}
+{"L":"INFO","T":"2020-07-31T14:30:09.726+0800","C":"oauth2/oauth2.go:107","M":"=============================="}
+{"L":"INFO","T":"2020-07-31T14:31:04.812+0800","C":"oauth2/oauth2.go:107","M":"=============================="}
+{"L":"INFO","T":"2020-07-31T14:31:32.292+0800","C":"oath2_server/main.go:55","M":"222222"}
+{"L":"INFO","T":"2020-07-31T14:31:32.292+0800","C":"oath2_server/main.go:56","M":"http://localhost:9094/oauth2_client"}
+{"L":"INFO","T":"2020-07-31T14:31:32.292+0800","C":"oath2_server/main.go:57","M":"code"}
+{"L":"INFO","T":"2020-07-31T14:34:27.500+0800","C":"oauth2/oauth2.go:107","M":"=============================="}
+{"L":"INFO","T":"2020-07-31T14:34:33.684+0800","C":"oath2_server/main.go:72","M":"&{code 222222 all http://localhost:9094/oauth2_client xyz }"}
+{"L":"INFO","T":"2020-07-31T14:38:18.178+0800","C":"oauth2/oauth2.go:107","M":"=============================="}
+{"L":"INFO","T":"2020-07-31T14:39:29.178+0800","C":"oath2_server/main.go:72","M":"&{code 222222 all http://localhost:9094/oauth2_client xyz }"}
+{"L":"INFO","T":"2020-07-31T14:39:40.157+0800","C":"oauth2/oauth2.go:107","M":"=============================="}
+{"L":"INFO","T":"2020-07-31T14:56:34.824+0800","C":"oath2_server/main.go:72","M":"&{     }"}
+{"L":"INFO","T":"2020-07-31T14:56:34.825+0800","C":"oath2_server/main.go:91","M":"aa"}
+{"L":"INFO","T":"2020-07-31T14:57:00.054+0800","C":"oath2_server/main.go:72","M":"&{code 222222 all http://localhost:9094/oauth2_client xyz }"}
+{"L":"INFO","T":"2020-07-31T14:57:05.035+0800","C":"oath2_server/main.go:72","M":"&{code 222222 all http://localhost:9094/oauth2_client xyz }"}
+{"L":"INFO","T":"2020-07-31T14:57:05.036+0800","C":"oath2_server/main.go:91","M":"aa"}
+{"L":"INFO","T":"2020-07-31T16:13:07.517+0800","C":"oauth2/oauth2.go:107","M":"=============================="}
+{"L":"INFO","T":"2020-07-31T16:13:24.157+0800","C":"oath2_server/main.go:73","M":"&{code 222222 all http://localhost:9094/oauth2_client xyz }"}
+{"L":"INFO","T":"2020-07-31T16:13:29.087+0800","C":"oath2_server/main.go:73","M":"&{code 222222 all http://localhost:9094/oauth2_client xyz }"}
+{"L":"INFO","T":"2020-07-31T16:13:29.600+0800","C":"oath2_server/main.go:73","M":"&{code 222222 all http://localhost:9094/oauth2_client xyz }"}
+{"L":"INFO","T":"2020-07-31T16:14:33.460+0800","C":"oath2_server/main.go:73","M":"&{code 222222 all http://localhost:9094/oauth2_client xyz }"}
+{"L":"INFO","T":"2020-07-31T16:14:33.463+0800","C":"oath2_server/main.go:92","M":"aa"}
+{"L":"INFO","T":"2020-07-31T16:14:36.935+0800","C":"oath2_server/main.go:73","M":"&{     }"}
+{"L":"INFO","T":"2020-07-31T17:10:51.970+0800","C":"oath2_server/main.go:73","M":"&{     }"}
+{"L":"INFO","T":"2020-07-31T17:10:56.772+0800","C":"oath2_server/main.go:73","M":"&{     }"}
+{"L":"INFO","T":"2020-07-31T17:10:56.773+0800","C":"oath2_server/main.go:92","M":"aa"}
+{"L":"INFO","T":"2020-07-31T17:11:02.936+0800","C":"oath2_server/main.go:73","M":"&{     }"}
+{"L":"INFO","T":"2020-07-31T17:11:37.779+0800","C":"oath2_server/main.go:73","M":"&{     }"}
+{"L":"INFO","T":"2020-07-31T17:11:55.579+0800","C":"oath2_server/main.go:73","M":"&{     }"}
+{"L":"INFO","T":"2020-07-31T17:11:55.579+0800","C":"oath2_server/main.go:92","M":"aa"}
+{"L":"INFO","T":"2020-07-31T17:36:06.754+0800","C":"oauth2/oauth2.go:130","M":"=============================="}
+{"L":"INFO","T":"2020-07-31T17:36:12.620+0800","C":"oath2_server/main.go:74","M":"&{code 222222 all http://localhost:9094/oauth2_client xyz }"}
+{"L":"INFO","T":"2020-07-31T17:36:25.401+0800","C":"oath2_server/main.go:135","M":""}
+{"L":"INFO","T":"2020-07-31T17:36:25.402+0800","C":"oauth2/oauth2.go:115","M":"{\"ID\":\"1\",\"ClientID\":\"222222\",\"ClientSecret\":\"22222222\",\"Domain\":\"http://localhost:9094\",\"CreateAt\":\"0001-01-01T00:00:00Z\"}"}
+{"L":"INFO","T":"2020-07-31T17:54:37.801+0800","C":"oauth2/oauth2.go:130","M":"=============================="}
+{"L":"INFO","T":"2020-07-31T17:54:43.064+0800","C":"oath2_server/main.go:74","M":"&{code 222222 all http://localhost:9094/oauth2_client xyz }"}
+{"L":"INFO","T":"2020-07-31T17:54:50.511+0800","C":"oath2_server/main.go:135","M":""}
+{"L":"INFO","T":"2020-07-31T17:54:50.513+0800","C":"oauth2/oauth2.go:115","M":"{\"id\":\"1\",\"clients\":[{\"id\":\"222222\",\"secret\":\"22222222\",\"domain\":\"http://localhost:9094\"}],\"creat_time\":\"0001-01-01T00:00:00Z\"}"}
+{"L":"INFO","T":"2020-07-31T18:04:32.272+0800","C":"oauth2/oauth2.go:130","M":"=============================="}
+{"L":"INFO","T":"2020-08-08T15:56:16.194+0800","C":"oath2_server/main.go:132","M":""}
+{"L":"INFO","T":"2020-08-08T16:00:23.909+0800","C":"oath2_server/main.go:132","M":""}
+{"L":"INFO","T":"2020-08-08T16:01:13.283+0800","C":"oath2_server/main.go:132","M":""}
+{"L":"INFO","T":"2020-08-08T16:02:38.388+0800","C":"oath2_server/main.go:132","M":""}
+{"L":"INFO","T":"2020-08-08T16:08:56.968+0800","C":"oath2_server/main.go:137","M":""}
+{"L":"INFO","T":"2020-08-08T16:09:23.482+0800","C":"oath2_server/main.go:137","M":""}
+{"L":"INFO","T":"2020-08-08T16:11:58.713+0800","C":"oath2_server/main.go:144","M":""}
+{"L":"INFO","T":"2020-08-08T16:18:43.251+0800","C":"oath2_server/main.go:144","M":""}
+{"L":"INFO","T":"2020-08-08T16:28:59.219+0800","C":"oath2_server/main.go:144","M":""}
+{"L":"INFO","T":"2020-08-08T16:29:09.075+0800","C":"oath2_server/main.go:144","M":""}
+{"L":"INFO","T":"2020-08-08T16:47:44.443+0800","C":"oath2_server/main.go:163","M":""}
+{"L":"INFO","T":"2020-08-08T16:49:01.016+0800","C":"oath2_server/main.go:163","M":""}
+{"L":"INFO","T":"2020-08-08T16:55:33.946+0800","C":"oath2_server/main.go:163","M":""}
+{"L":"INFO","T":"2020-08-08T17:57:27.476+0800","C":"oath2_server/main.go:163","M":""}
+{"L":"INFO","T":"2020-08-08T17:58:38.097+0800","C":"oath2_server/main.go:163","M":""}
+{"L":"INFO","T":"2020-08-10T11:27:32.482+0800","C":"oath2_server/main.go:144","M":""}
+{"L":"INFO","T":"2020-08-10T11:29:14.932+0800","C":"oath2_server/main.go:144","M":""}
+{"L":"INFO","T":"2020-08-10T13:58:11.395+0800","C":"oath2_server/main.go:144","M":""}
+{"L":"INFO","T":"2020-08-10T13:59:04.491+0800","C":"oath2_server/main.go:144","M":""}
+{"L":"INFO","T":"2020-08-10T14:07:05.572+0800","C":"oath2_server/main.go:144","M":""}
+{"L":"INFO","T":"2020-08-10T14:07:42.081+0800","C":"oath2_server/main.go:144","M":""}
+{"L":"INFO","T":"2020-08-10T14:14:34.566+0800","C":"oath2_server/main.go:144","M":""}
+{"L":"INFO","T":"2020-08-10T14:44:30.054+0800","C":"oath2_server/main.go:145","M":""}
+{"L":"INFO","T":"2020-08-10T14:44:49.925+0800","C":"oath2_server/main.go:145","M":""}
+{"L":"INFO","T":"2020-08-10T14:44:57.133+0800","C":"oath2_server/main.go:145","M":""}
+{"L":"INFO","T":"2020-08-10T17:26:26.307+0800","C":"oath2_server/main.go:145","M":""}
+{"L":"INFO","T":"2020-08-10T17:26:51.225+0800","C":"oath2_server/main.go:145","M":""}
+{"L":"INFO","T":"2020-08-10T17:52:13.143+0800","C":"oath2_server/main.go:145","M":""}
+{"L":"INFO","T":"2020-08-10T17:58:08.066+0800","C":"oath2_server/main.go:145","M":""}
+{"L":"INFO","T":"2020-08-10T18:01:37.739+0800","C":"oath2_server/main.go:145","M":""}
+{"L":"INFO","T":"2020-08-10T18:05:11.061+0800","C":"oath2_server/main.go:145","M":""}
+{"L":"INFO","T":"2020-08-10T18:27:19.997+0800","C":"oath2_server/main.go:145","M":""}
+{"L":"INFO","T":"2020-08-10T18:39:50.117+0800","C":"oath2_server/main.go:145","M":""}
+{"L":"INFO","T":"2020-08-10T18:40:58.658+0800","C":"oath2_server/main.go:145","M":""}
+{"L":"INFO","T":"2020-08-10T18:56:16.232+0800","C":"oath2_server/main.go:145","M":""}
+{"L":"INFO","T":"2020-08-11T09:46:14.395+0800","C":"oath2_server/main.go:148","M":""}
+{"L":"INFO","T":"2020-08-11T09:49:35.575+0800","C":"oath2_server/main.go:148","M":""}
+{"L":"INFO","T":"2020-08-11T10:03:59.066+0800","C":"oath2_server/main.go:148","M":""}
+{"L":"INFO","T":"2020-08-11T10:05:48.582+0800","C":"oath2_server/main.go:148","M":""}
+{"L":"INFO","T":"2020-08-11T10:14:00.173+0800","C":"oath2_server/main.go:148","M":""}
+{"L":"INFO","T":"2020-08-11T10:17:10.692+0800","C":"oath2_server/main.go:151","M":""}
+{"L":"INFO","T":"2020-08-11T10:47:03.094+0800","C":"oath2_server/main.go:151","M":""}
+{"L":"INFO","T":"2020-08-11T11:59:30.407+0800","C":"oath2_server/main.go:151","M":""}
+{"L":"INFO","T":"2020-08-11T13:34:34.052+0800","C":"oath2_server/main.go:151","M":""}
+{"L":"INFO","T":"2020-08-11T13:50:09.556+0800","C":"oath2_server/main.go:151","M":""}
+{"L":"INFO","T":"2020-08-11T13:52:58.492+0800","C":"oath2_server/main.go:151","M":""}
+{"L":"INFO","T":"2020-08-11T13:53:58.386+0800","C":"oath2_server/main.go:151","M":""}
+{"L":"INFO","T":"2020-08-11T13:57:32.498+0800","C":"oath2_server/main.go:152","M":""}
+{"L":"INFO","T":"2020-08-11T13:59:33.394+0800","C":"oath2_server/main.go:152","M":""}
+{"L":"INFO","T":"2020-08-11T14:03:00.010+0800","C":"oath2_server/main.go:152","M":""}
+{"L":"INFO","T":"2020-08-11T14:06:34.924+0800","C":"oath2_server/main.go:152","M":""}
+{"L":"INFO","T":"2020-08-11T14:16:26.117+0800","C":"oath2_server/main.go:152","M":""}
+{"L":"INFO","T":"2020-08-11T14:18:14.889+0800","C":"oath2_server/main.go:152","M":""}
+{"L":"INFO","T":"2020-08-11T14:29:43.450+0800","C":"oath2_server/main.go:152","M":""}
+{"L":"INFO","T":"2020-08-11T14:33:09.904+0800","C":"oath2_server/main.go:152","M":""}
+{"L":"INFO","T":"2020-08-11T14:35:34.206+0800","C":"oath2_server/main.go:152","M":""}
+{"L":"INFO","T":"2020-08-11T14:42:26.721+0800","C":"oath2_server/main.go:152","M":""}
+{"L":"INFO","T":"2020-08-11T14:44:21.038+0800","C":"oath2_server/main.go:152","M":""}
+{"L":"INFO","T":"2020-08-11T14:45:32.327+0800","C":"oath2_server/main.go:152","M":""}
+{"L":"INFO","T":"2020-08-11T14:48:54.846+0800","C":"oath2_server/main.go:152","M":""}
+{"L":"INFO","T":"2020-08-11T14:53:43.951+0800","C":"oath2_server/main.go:152","M":""}
+{"L":"INFO","T":"2020-08-11T14:54:10.564+0800","C":"oath2_server/main.go:152","M":""}
+{"L":"INFO","T":"2020-08-11T14:54:46.182+0800","C":"oath2_server/main.go:152","M":""}
+{"L":"INFO","T":"2020-08-11T15:08:31.329+0800","C":"oath2_server/main.go:152","M":""}
+{"L":"INFO","T":"2020-08-11T15:13:16.883+0800","C":"oath2_server/main.go:156","M":""}
+{"L":"INFO","T":"2020-08-11T16:01:46.190+0800","C":"oath2_server/main.go:156","M":""}
+{"L":"INFO","T":"2020-08-11T16:31:53.352+0800","C":"oath2_server/main.go:156","M":""}
+{"L":"INFO","T":"2020-08-12T09:24:48.482+0800","C":"oath2_server/main.go:156","M":""}
+{"L":"INFO","T":"2020-08-12T09:49:41.362+0800","C":"oath2_server/main.go:156","M":""}
+{"L":"INFO","T":"2020-08-12T10:42:17.753+0800","C":"oath2_server/main.go:156","M":""}
+{"L":"INFO","T":"2020-08-12T10:42:46.049+0800","C":"oath2_server/main.go:156","M":""}
+{"L":"INFO","T":"2020-08-12T10:59:49.213+0800","C":"oath2_server/main.go:158","M":""}
+{"L":"INFO","T":"2020-08-12T11:10:15.700+0800","C":"oath2_server/main.go:158","M":""}
