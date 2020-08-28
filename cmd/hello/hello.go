@@ -16,6 +16,7 @@ func main() {
 		boot.InitModel,
 		boot.InitTracer,
 		boot.InitServer,
+		boot.InitRegistry,
 		)
 
 	if err != nil {

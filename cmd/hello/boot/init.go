@@ -8,6 +8,8 @@ import (
 	capi "sapi/pkg/config/api"
 	"sapi/pkg/logger"
 	"sapi/pkg/model"
+	"sapi/pkg/registry/etcd"
+	"sapi/pkg/registry/multi"
 	"sapi/pkg/server"
 	"sapi/pkg/server/api"
 	"sapi/pkg/tracer"
@@ -105,5 +107,17 @@ func InitServer() error {
 }
 
 func InitRegistry() error {
+	rsy, err := etcd.NewRegistry(GetConfig().Registry)
+	if err != nil {
+		return err
+	}
+
+	sc.rgy = multi.New(rsy)
+	for _, svrOpt := range GetConfig().Server {
+		err = sc.rgy.Register(svrOpt)
+		if err != nil {
+			return err
+		}
+	}
 	return nil
 }

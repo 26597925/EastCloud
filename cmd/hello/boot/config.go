@@ -2,7 +2,6 @@ package boot
 
 import (
 	"github.com/imdario/mergo"
-	"log"
 	flags "sapi/pkg/bootstrap/flag"
 	"sapi/pkg/client/redis"
 	"sapi/pkg/config"
@@ -13,6 +12,7 @@ import (
 	"sapi/pkg/config/flag"
 	"sapi/pkg/logger"
 	"sapi/pkg/model"
+	"sapi/pkg/registry"
 	"sapi/pkg/server"
 	"sapi/pkg/tracer"
 	"sapi/pkg/util/fileext"
@@ -28,6 +28,7 @@ type Config struct {
 	Orm *model.Options
 	Tracer *tracer.Options
 	Server []*server.Options
+	Registry *registry.Options
 
 	Watcher api.Watcher
 }
@@ -84,8 +85,6 @@ func parseConfig(fs *flags.Set) (*Config, error) {
 	if envConfig.Config.Watcher && envConfig.Config.Type == "online"{
 		watch, err = ed.Watch()
 	}
-
-	log.Println(etcdConfig.Server[0])
 
 	if err != nil {
 		return nil, err

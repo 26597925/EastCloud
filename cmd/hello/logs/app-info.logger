@@ -413,3 +413,116 @@
 {"L":"INFO","T":"2020-08-27T18:48:06.099+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
 {"L":"INFO","T":"2020-08-27T18:48:06.099+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
 {"L":"INFO","T":"2020-08-27T18:48:06.117+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-27T18:53:08.983+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-27T18:53:08.990+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-27T18:53:08.990+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-27T18:53:08.990+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-27T18:53:08.990+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-27T18:53:08.991+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-27T18:53:09.014+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-28T10:10:58.921+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-28T10:12:07.044+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-28T10:12:07.083+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-28T10:12:07.083+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-28T10:12:07.083+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-28T10:12:07.084+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-28T10:12:07.084+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-28T10:12:07.102+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-28T10:16:23.722+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-28T10:16:23.728+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-28T10:16:23.728+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-28T10:16:23.728+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-28T10:16:23.728+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-28T10:16:23.728+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-28T10:16:23.748+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-28T10:17:47.528+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-28T10:17:47.548+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-28T10:17:47.549+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-28T10:17:47.549+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-28T10:17:47.550+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-28T10:17:47.550+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-28T10:17:47.581+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-28T10:50:39.472+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-28T10:50:39.480+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-28T10:50:39.480+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-28T10:50:39.480+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-28T10:50:39.480+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-28T10:50:39.480+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-28T10:50:39.496+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-28T11:13:15.952+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-28T11:13:15.958+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-28T11:13:15.958+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-28T11:13:15.958+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-28T11:13:15.958+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-28T11:13:15.958+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-28T11:13:15.977+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-28T11:14:13.712+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-28T11:14:13.719+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-28T11:14:13.719+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-28T11:14:13.719+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-28T11:14:13.719+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-28T11:14:13.720+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-28T11:14:13.745+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-28T11:15:07.399+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-28T11:15:07.406+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-28T11:15:07.407+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-28T11:15:07.407+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-28T11:15:07.407+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-28T11:15:07.407+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-28T11:15:07.419+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-28T11:24:18.192+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-28T11:24:18.201+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-28T11:24:18.201+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-28T11:24:18.201+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-28T11:24:18.201+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-28T11:24:18.201+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-28T11:24:18.218+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-28T11:30:43.949+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-28T11:30:43.960+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-28T11:30:43.960+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-28T11:30:43.960+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-28T11:30:43.960+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-28T11:30:43.960+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-28T11:30:43.983+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-28T11:46:42.278+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-28T11:46:42.283+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-28T11:46:42.283+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-28T11:46:42.283+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-28T11:46:42.283+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-28T11:46:42.283+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-28T11:46:42.303+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-28T11:47:51.965+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-28T11:47:51.970+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-28T11:47:51.970+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-28T11:47:51.971+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-28T11:47:51.971+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-28T11:47:51.971+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-28T11:47:51.991+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-28T11:56:13.170+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-28T11:56:13.177+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-28T11:56:13.177+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-28T11:56:13.177+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-28T11:56:13.177+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-28T11:56:13.177+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-28T11:56:13.199+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-28T13:37:40.876+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-28T13:37:40.884+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-28T13:37:40.884+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-28T13:37:40.884+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-28T13:37:40.885+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-28T13:37:40.885+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-28T13:37:40.902+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-28T17:33:34.773+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-28T17:33:34.779+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-28T17:33:34.779+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-28T17:33:34.779+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-28T17:33:34.779+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-28T17:33:34.780+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-28T17:33:34.799+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-28T17:35:15.901+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-28T17:35:15.907+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-28T17:35:15.907+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-28T17:35:15.907+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-28T17:35:15.908+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-28T17:35:15.908+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-28T17:35:15.936+0800","C":"bootstrap/boot.go:71","M":"start successfully"}

@@ -10,6 +10,6 @@ func HttpRouter(svr api.Server)  error {
 	router := svr.(*gin.Server)
 	demo := &controller.Demo{}
 	router.GET("/welcome", demo.Query)
-
+	router.GET("/list", demo.List)
 	return nil
 }

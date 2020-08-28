@@ -34,7 +34,7 @@ func (sc *ServiceContext) GetServers() []api.Server {
 }
 
 func (sc *ServiceContext) GetRegistry() registry.Registry {
-	return nil
+	return sc.rgy
 }
 
 func AddServe(s ...api.Server) {
@@ -47,4 +47,8 @@ func GetContext() context.Context {
 
 func GetConfig() *Config {
 	return sc.cf
+}
+
+func Registry()  registry.Registry{
+	return sc.rgy
 }

@@ -1,13 +1,34 @@
 package controller
 
 import (
+	"context"
+	"fmt"
 	"github.com/gin-gonic/gin"
+	"google.golang.org/grpc"
+	"google.golang.org/grpc/examples/helloworld/helloworld"
+	gCliect "sapi/pkg/client/grpc"
 )
 
 type Demo struct {
 
 }
 
-func (a *Demo) Query(c *gin.Context) {
-	c.Writer.WriteString("Hello World!")
+func (d *Demo) Query(c *gin.Context) {
+	name, suc := c.GetQuery("name")
+	if !suc {
+		name = "World"
+	}
+
+	cc1 := gCliect.NewOptions(gCliect.Address("127.0.0.1:8089"), gCliect.GrpcDialOptions(grpc.WithInsecure())).Build()
+	res1 := &helloworld.HelloReply{}
+	err := cc1.Call(context.Background(), "/helloworld.Greeter/SayHello", &helloworld.HelloRequest{
+		Name: name,
+	}, res1)
+
+	fmt.Println(err)
+	c.Writer.WriteString(res1.Message)
+}
+
+func (d *Demo) List(c *gin.Context) {
+
 }

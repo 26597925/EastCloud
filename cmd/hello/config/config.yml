@@ -74,11 +74,15 @@ server:
      zone: "一区"
      groupName: "开发组"
      ip: ""
-     port: 8000
+     port: 8088
    - name: "grpc"
      driver: "grpc"
      region: "广东"
      zone: "一区"
      groupName: "开发组"
      ip: ""
-     port: 8001
+     port: 8089
+
+registry:
+  Timeout: 3
+  TTL: 5
