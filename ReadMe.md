@@ -25,5 +25,5 @@
 # 感谢
   非常感谢micro,jupiter,oauth2,oauth2-server的开发团队，因为我借鉴了很多他们的优点以及相关代码。
 
-## 7. Quick Start
+## Quick Start
   查看cmd目录的hello子服务项目，其他样例可以查看example文件目录。
