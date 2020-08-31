@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-type registry struct {
+type Registry struct {
 	sync.RWMutex
 	client 	  *Client
 	leases    map[string]clientv3.LeaseID
@@ -17,16 +17,14 @@ type registry struct {
 	timeout   time.Duration
 }
 
-func (e *registry) Register(key , value string, ttl int64) error {
+func (e *Registry) Register(key , value string, ttl int64) error {
 	e.Lock()
 	leaseID, ok := e.leases[key]
 	e.Unlock()
 
 	if !ok {
-		ctx, cancel := context.WithTimeout(context.Background(),  e.timeout)
-		defer cancel()
 
-		rsp, err := e.client.Get(ctx, key, clientv3.WithSerializable())
+		rsp, err := e.client.Get(context.Background(), key, clientv3.WithSerializable())
 		if err != nil {
 			return err
 		}
@@ -99,16 +97,13 @@ func (e *registry) Register(key , value string, ttl int64) error {
 	return nil
 }
 
-func (e *registry) Deregister(key string) error {
+func (e *Registry) Deregister(key string) error {
 	e.Lock()
 	delete(e.register, key)
 	delete(e.leases, key)
 	e.Unlock()
 
-	ctx, cancel := context.WithTimeout(context.Background(), e.timeout)
-	defer cancel()
-
-	if _, err := e.client.Delete(ctx, key); err != nil {
+	if _, err := e.client.Delete(context.Background(), key); err != nil {
 		return err
 	}
 	return nil

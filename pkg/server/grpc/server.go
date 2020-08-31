@@ -12,7 +12,7 @@ import (
 type Server struct {
 	*grpc.Server
 	listener net.Listener
-	option api.Option
+	option   api.Option
 }
 //https://github.com/fullstorydev/grpcui
 func NewServer(option api.Option) api.Server {

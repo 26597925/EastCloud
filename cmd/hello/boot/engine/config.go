@@ -1,4 +1,4 @@
-package boot
+package engine
 
 import (
 	"github.com/imdario/mergo"
@@ -34,7 +34,7 @@ type Config struct {
 }
 
 
-func parseConfig(fs *flags.Set) (*Config, error) {
+func ParseConfig(fs *flags.Set) (*Config, error) {
 	path, err := parsePath(fs)
 	if err != nil {
 		return nil, err

@@ -19,13 +19,13 @@ type Event struct {
 	Value []byte
 }
 
-type watcher struct {
+type Watcher struct {
 	sync.RWMutex
 	ch   chan *Event
 	exit chan bool
 }
 
-func (w *watcher) Next() (*Event, error) {
+func (w *Watcher) Next() (*Event, error) {
 	select {
 	case evt := <-w.ch:
 		return evt, nil
@@ -34,7 +34,7 @@ func (w *watcher) Next() (*Event, error) {
 	}
 }
 
-func (w *watcher) Stop()  {
+func (w *Watcher) Stop()  {
 	select {
 	case <-w.exit:
 		return
@@ -43,11 +43,11 @@ func (w *watcher) Stop()  {
 	}
 }
 
-func (w *watcher) Type() string {
+func (w *Watcher) Type() string {
 	return "etcdv3"
 }
 
-func (w *watcher) handle(evt *clientv3.Event) {
+func (w *Watcher) handle(evt *clientv3.Event) {
 	event := &Event{
 		Key: string(evt.Kv.Key),
 		Value: evt.Kv.Value,
@@ -67,7 +67,7 @@ func (w *watcher) handle(evt *clientv3.Event) {
 	w.ch <- event
 }
 
-func (w *watcher) run(wc clientv3.Watcher, ch clientv3.WatchChan) {
+func (w *Watcher) run(wc clientv3.Watcher, ch clientv3.WatchChan) {
 	for {
 		select {
 		case rsp, ok := <-ch:

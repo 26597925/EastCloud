@@ -526,3 +526,394 @@
 {"L":"INFO","T":"2020-08-28T17:35:15.908+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
 {"L":"INFO","T":"2020-08-28T17:35:15.908+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
 {"L":"INFO","T":"2020-08-28T17:35:15.936+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-31T11:06:11.467+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-31T11:06:11.544+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-31T11:06:11.544+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-31T11:06:11.544+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-31T11:06:11.544+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-31T11:06:11.545+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-31T11:06:12.038+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-31T11:09:31.324+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-31T11:09:31.330+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-31T11:09:31.330+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-31T11:09:31.330+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-31T11:09:31.330+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-31T11:09:31.330+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-31T11:09:31.810+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-31T11:19:13.579+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-31T11:19:13.585+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-31T11:19:13.585+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-31T11:19:13.586+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-31T11:19:13.586+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-31T11:19:13.586+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-31T11:19:14.072+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-31T11:19:28.806+0800","C":"controller/demo.go:34","M":"&{ debug 0xc0000d2230 0xc00011e240 0xc00008ca90 0xc00011e2d0 0xc0000ec700 [0xc00009ac80 0xc00009af00] 0xc00011e1b0 0xc00031a000}"}
+{"L":"INFO","T":"2020-08-31T11:20:14.122+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-31T11:20:14.130+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-31T11:20:14.130+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-31T11:20:14.130+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-31T11:20:14.130+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-31T11:20:14.130+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-31T11:20:14.646+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-31T11:20:18.701+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T11:25:16.686+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T11:28:23.471+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-31T11:28:23.477+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-31T11:28:23.477+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-31T11:28:23.477+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-31T11:28:23.477+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-31T11:28:23.478+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-31T11:28:23.962+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-31T11:31:41.296+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T11:31:41.299+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T11:31:41.300+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T11:31:41.606+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T11:31:46.704+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T11:31:46.714+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T11:31:46.716+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T11:31:59.412+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T11:31:59.417+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T11:31:59.420+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T11:32:29.522+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T11:32:29.525+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T11:32:29.530+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T11:33:29.588+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T11:49:05.403+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-31T11:49:05.408+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-31T11:49:05.408+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-31T11:49:05.408+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-31T11:49:05.408+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-31T11:49:05.409+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-31T11:49:05.907+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-31T11:49:33.808+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T11:52:03.786+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-31T11:52:03.791+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-31T11:52:03.791+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-31T11:52:03.791+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-31T11:52:03.792+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-31T11:52:03.792+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-31T11:52:04.301+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-31T11:52:07.228+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T11:52:07.228+0800","C":"controller/demo.go:35","M":"<nil>"}
+{"L":"INFO","T":"2020-08-31T11:53:59.338+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-31T11:53:59.346+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-31T11:53:59.347+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-31T11:53:59.347+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-31T11:53:59.347+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-31T11:53:59.347+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-31T11:53:59.370+0800","C":"engine/context.go:70","M":"&{[0xc00005c820]}"}
+{"L":"INFO","T":"2020-08-31T11:53:59.842+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-31T11:54:05.844+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T11:54:05.844+0800","C":"controller/demo.go:35","M":"<nil>"}
+{"L":"INFO","T":"2020-08-31T11:56:34.913+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-31T11:56:34.918+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-31T11:56:34.918+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-31T11:56:34.918+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-31T11:56:34.918+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-31T11:56:34.918+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-31T11:56:34.938+0800","C":"engine/context.go:70","M":"&{[0xc0002c64b0]}"}
+{"L":"INFO","T":"2020-08-31T11:56:35.401+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-31T11:57:05.018+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-31T11:57:05.023+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-31T11:57:05.023+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-31T11:57:05.023+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-31T11:57:05.023+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-31T11:57:05.023+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-31T11:57:05.446+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-31T11:57:36.457+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T11:57:36.464+0800","C":"controller/demo.go:36","M":"[0xc0004da510 0xc0004da5a0 0xc0004da630 0xc0004da6c0 0xc0004da750 0xc0004da7e0 0xc0004da870]"}
+{"L":"INFO","T":"2020-08-31T11:57:36.464+0800","C":"controller/demo.go:37","M":"<nil>"}
+{"L":"INFO","T":"2020-08-31T11:59:37.158+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-31T11:59:37.164+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-31T11:59:37.165+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-31T11:59:37.165+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-31T11:59:37.165+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-31T11:59:37.165+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-31T11:59:37.706+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-31T12:02:23.131+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-31T12:02:23.138+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-31T12:02:23.138+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-31T12:02:23.138+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-31T12:02:23.139+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-31T12:02:23.139+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-31T12:02:23.924+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-31T12:02:28.573+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T12:02:28.578+0800","C":"controller/demo.go:36","M":"<nil>"}
+{"L":"INFO","T":"2020-08-31T12:02:28.578+0800","C":"controller/demo.go:37","M":"[0xc000604630 0xc0006046c0 0xc000604750 0xc0006047e0 0xc000604870 0xc000604900 0xc000604990 0xc000604a20 0xc000604ab0]"}
+{"L":"INFO","T":"2020-08-31T12:02:28.579+0800","C":"controller/demo.go:40","M":"&{grpc grpc   广东 一区 开发组  8089}"}
+{"L":"INFO","T":"2020-08-31T12:02:28.579+0800","C":"controller/demo.go:40","M":"&{gin http   广东 一区 开发组  8088}"}
+{"L":"INFO","T":"2020-08-31T12:02:28.579+0800","C":"controller/demo.go:40","M":"&{gin  server-id-2ed0f5bb-92c0-474a-85a0-28be47efda5a      8000}"}
+{"L":"INFO","T":"2020-08-31T12:02:28.579+0800","C":"controller/demo.go:40","M":"&{gin  server-id-58a8cd6a-ff1b-43d1-ae21-aa774c321e56      8000}"}
+{"L":"INFO","T":"2020-08-31T12:02:28.579+0800","C":"controller/demo.go:40","M":"&{gin  server-id-5ef6acdb-c4c8-4308-b6d4-6aa58c319bf2      8000}"}
+{"L":"INFO","T":"2020-08-31T12:02:28.579+0800","C":"controller/demo.go:40","M":"&{gin  server-id-613bad71-c0fd-46e5-ab4d-80b4f91ae5e9      8000}"}
+{"L":"INFO","T":"2020-08-31T12:02:28.579+0800","C":"controller/demo.go:40","M":"&{gin  server-id-9372f5d3-5e06-4529-bbb1-a2c64efaaae8      8000}"}
+{"L":"INFO","T":"2020-08-31T12:02:28.579+0800","C":"controller/demo.go:40","M":"&{gin  server-id-a938bd8e-e431-4497-837e-58c540ee77eb      8000}"}
+{"L":"INFO","T":"2020-08-31T12:02:28.579+0800","C":"controller/demo.go:40","M":"&{gin  server-id-ad4d122b-13b0-4b94-bcc9-adb7e86a550b      8000}"}
+{"L":"INFO","T":"2020-08-31T12:02:41.097+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T12:02:41.102+0800","C":"controller/demo.go:36","M":"<nil>"}
+{"L":"INFO","T":"2020-08-31T12:02:41.102+0800","C":"controller/demo.go:37","M":"[0xc000628120 0xc0006281b0 0xc000628240 0xc0006282d0 0xc000628360 0xc0006283f0 0xc000628480]"}
+{"L":"INFO","T":"2020-08-31T12:02:41.102+0800","C":"controller/demo.go:40","M":"&{gin  server-id-2ed0f5bb-92c0-474a-85a0-28be47efda5a      8000}"}
+{"L":"INFO","T":"2020-08-31T12:02:41.102+0800","C":"controller/demo.go:40","M":"&{gin  server-id-58a8cd6a-ff1b-43d1-ae21-aa774c321e56      8000}"}
+{"L":"INFO","T":"2020-08-31T12:02:41.102+0800","C":"controller/demo.go:40","M":"&{gin  server-id-5ef6acdb-c4c8-4308-b6d4-6aa58c319bf2      8000}"}
+{"L":"INFO","T":"2020-08-31T12:02:41.102+0800","C":"controller/demo.go:40","M":"&{gin  server-id-613bad71-c0fd-46e5-ab4d-80b4f91ae5e9      8000}"}
+{"L":"INFO","T":"2020-08-31T12:02:41.102+0800","C":"controller/demo.go:40","M":"&{gin  server-id-9372f5d3-5e06-4529-bbb1-a2c64efaaae8      8000}"}
+{"L":"INFO","T":"2020-08-31T12:02:41.102+0800","C":"controller/demo.go:40","M":"&{gin  server-id-a938bd8e-e431-4497-837e-58c540ee77eb      8000}"}
+{"L":"INFO","T":"2020-08-31T12:02:41.103+0800","C":"controller/demo.go:40","M":"&{gin  server-id-ad4d122b-13b0-4b94-bcc9-adb7e86a550b      8000}"}
+{"L":"INFO","T":"2020-08-31T12:02:59.043+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T12:02:59.045+0800","C":"controller/demo.go:36","M":"<nil>"}
+{"L":"INFO","T":"2020-08-31T12:02:59.045+0800","C":"controller/demo.go:37","M":"[0xc0005bc240 0xc0005bc2d0 0xc0005bc360 0xc0005bc3f0 0xc0005bc480 0xc0005bc510 0xc0005bc5a0]"}
+{"L":"INFO","T":"2020-08-31T12:02:59.045+0800","C":"controller/demo.go:40","M":"&{gin  server-id-2ed0f5bb-92c0-474a-85a0-28be47efda5a      8000}"}
+{"L":"INFO","T":"2020-08-31T12:02:59.045+0800","C":"controller/demo.go:40","M":"&{gin  server-id-58a8cd6a-ff1b-43d1-ae21-aa774c321e56      8000}"}
+{"L":"INFO","T":"2020-08-31T12:02:59.045+0800","C":"controller/demo.go:40","M":"&{gin  server-id-5ef6acdb-c4c8-4308-b6d4-6aa58c319bf2      8000}"}
+{"L":"INFO","T":"2020-08-31T12:02:59.045+0800","C":"controller/demo.go:40","M":"&{gin  server-id-613bad71-c0fd-46e5-ab4d-80b4f91ae5e9      8000}"}
+{"L":"INFO","T":"2020-08-31T12:02:59.045+0800","C":"controller/demo.go:40","M":"&{gin  server-id-9372f5d3-5e06-4529-bbb1-a2c64efaaae8      8000}"}
+{"L":"INFO","T":"2020-08-31T12:02:59.045+0800","C":"controller/demo.go:40","M":"&{gin  server-id-a938bd8e-e431-4497-837e-58c540ee77eb      8000}"}
+{"L":"INFO","T":"2020-08-31T12:02:59.045+0800","C":"controller/demo.go:40","M":"&{gin  server-id-ad4d122b-13b0-4b94-bcc9-adb7e86a550b      8000}"}
+{"L":"INFO","T":"2020-08-31T13:46:13.083+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-31T13:46:13.087+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-31T13:46:13.087+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-31T13:46:13.087+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-31T13:46:13.087+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-31T13:46:13.087+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-31T13:46:13.525+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-31T13:46:26.683+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T13:46:26.685+0800","C":"controller/demo.go:36","M":"<nil>"}
+{"L":"INFO","T":"2020-08-31T13:46:26.685+0800","C":"controller/demo.go:37","M":"[0xc0001b61b0 0xc0001b6240 0xc0001b62d0 0xc0001b6360 0xc0001b63f0 0xc0001b6480 0xc0001b6510]"}
+{"L":"INFO","T":"2020-08-31T13:46:26.685+0800","C":"controller/demo.go:40","M":"&{gin  server-id-2ed0f5bb-92c0-474a-85a0-28be47efda5a      8000}"}
+{"L":"INFO","T":"2020-08-31T13:46:26.685+0800","C":"controller/demo.go:40","M":"&{gin  server-id-58a8cd6a-ff1b-43d1-ae21-aa774c321e56      8000}"}
+{"L":"INFO","T":"2020-08-31T13:46:26.685+0800","C":"controller/demo.go:40","M":"&{gin  server-id-5ef6acdb-c4c8-4308-b6d4-6aa58c319bf2      8000}"}
+{"L":"INFO","T":"2020-08-31T13:46:26.685+0800","C":"controller/demo.go:40","M":"&{gin  server-id-613bad71-c0fd-46e5-ab4d-80b4f91ae5e9      8000}"}
+{"L":"INFO","T":"2020-08-31T13:46:26.685+0800","C":"controller/demo.go:40","M":"&{gin  server-id-9372f5d3-5e06-4529-bbb1-a2c64efaaae8      8000}"}
+{"L":"INFO","T":"2020-08-31T13:46:26.685+0800","C":"controller/demo.go:40","M":"&{gin  server-id-a938bd8e-e431-4497-837e-58c540ee77eb      8000}"}
+{"L":"INFO","T":"2020-08-31T13:46:26.685+0800","C":"controller/demo.go:40","M":"&{gin  server-id-ad4d122b-13b0-4b94-bcc9-adb7e86a550b      8000}"}
+{"L":"INFO","T":"2020-08-31T13:47:54.569+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-31T13:47:54.573+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-31T13:47:54.573+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-31T13:47:54.574+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-31T13:47:54.574+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-31T13:47:54.574+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-31T13:47:54.592+0800","C":"boot/init.go:118","M":"&{http  gin  广东 一区 开发组  8088 []}"}
+{"L":"INFO","T":"2020-08-31T13:47:54.951+0800","C":"boot/init.go:118","M":"&{grpc  grpc  广东 一区 开发组  8089 []}"}
+{"L":"INFO","T":"2020-08-31T13:47:55.096+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-31T13:48:28.120+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T13:48:28.131+0800","C":"controller/demo.go:36","M":"<nil>"}
+{"L":"INFO","T":"2020-08-31T13:48:28.131+0800","C":"controller/demo.go:37","M":"[0xc0005606c0 0xc000560750 0xc0005607e0 0xc000560870 0xc000560900 0xc000560990 0xc000560a20]"}
+{"L":"INFO","T":"2020-08-31T13:48:28.131+0800","C":"controller/demo.go:40","M":"&{gin  server-id-2ed0f5bb-92c0-474a-85a0-28be47efda5a      8000}"}
+{"L":"INFO","T":"2020-08-31T13:48:28.131+0800","C":"controller/demo.go:40","M":"&{gin  server-id-58a8cd6a-ff1b-43d1-ae21-aa774c321e56      8000}"}
+{"L":"INFO","T":"2020-08-31T13:48:28.131+0800","C":"controller/demo.go:40","M":"&{gin  server-id-5ef6acdb-c4c8-4308-b6d4-6aa58c319bf2      8000}"}
+{"L":"INFO","T":"2020-08-31T13:48:28.131+0800","C":"controller/demo.go:40","M":"&{gin  server-id-613bad71-c0fd-46e5-ab4d-80b4f91ae5e9      8000}"}
+{"L":"INFO","T":"2020-08-31T13:48:28.131+0800","C":"controller/demo.go:40","M":"&{gin  server-id-9372f5d3-5e06-4529-bbb1-a2c64efaaae8      8000}"}
+{"L":"INFO","T":"2020-08-31T13:48:28.131+0800","C":"controller/demo.go:40","M":"&{gin  server-id-a938bd8e-e431-4497-837e-58c540ee77eb      8000}"}
+{"L":"INFO","T":"2020-08-31T13:48:28.131+0800","C":"controller/demo.go:40","M":"&{gin  server-id-ad4d122b-13b0-4b94-bcc9-adb7e86a550b      8000}"}
+{"L":"INFO","T":"2020-08-31T13:48:46.476+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T13:48:46.477+0800","C":"controller/demo.go:36","M":"<nil>"}
+{"L":"INFO","T":"2020-08-31T13:48:46.477+0800","C":"controller/demo.go:37","M":"[0xc000531710 0xc0005317a0 0xc000531830 0xc0005318c0 0xc000531950 0xc0005319e0 0xc000531a70]"}
+{"L":"INFO","T":"2020-08-31T13:48:46.477+0800","C":"controller/demo.go:40","M":"&{gin  server-id-2ed0f5bb-92c0-474a-85a0-28be47efda5a      8000}"}
+{"L":"INFO","T":"2020-08-31T13:48:46.477+0800","C":"controller/demo.go:40","M":"&{gin  server-id-58a8cd6a-ff1b-43d1-ae21-aa774c321e56      8000}"}
+{"L":"INFO","T":"2020-08-31T13:48:46.477+0800","C":"controller/demo.go:40","M":"&{gin  server-id-5ef6acdb-c4c8-4308-b6d4-6aa58c319bf2      8000}"}
+{"L":"INFO","T":"2020-08-31T13:48:46.477+0800","C":"controller/demo.go:40","M":"&{gin  server-id-613bad71-c0fd-46e5-ab4d-80b4f91ae5e9      8000}"}
+{"L":"INFO","T":"2020-08-31T13:48:46.477+0800","C":"controller/demo.go:40","M":"&{gin  server-id-9372f5d3-5e06-4529-bbb1-a2c64efaaae8      8000}"}
+{"L":"INFO","T":"2020-08-31T13:48:46.477+0800","C":"controller/demo.go:40","M":"&{gin  server-id-a938bd8e-e431-4497-837e-58c540ee77eb      8000}"}
+{"L":"INFO","T":"2020-08-31T13:48:46.477+0800","C":"controller/demo.go:40","M":"&{gin  server-id-ad4d122b-13b0-4b94-bcc9-adb7e86a550b      8000}"}
+{"L":"INFO","T":"2020-08-31T13:52:21.380+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-31T13:52:21.390+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-31T13:52:21.391+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-31T13:52:21.391+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-31T13:52:21.391+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-31T13:52:21.391+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-31T13:52:21.411+0800","C":"boot/init.go:118","M":"&{http  gin  广东 一区 开发组  8088 []}"}
+{"L":"INFO","T":"2020-08-31T13:52:21.841+0800","C":"boot/init.go:118","M":"&{grpc  grpc  广东 一区 开发组  8089 []}"}
+{"L":"INFO","T":"2020-08-31T13:52:21.872+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-31T13:52:27.211+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T13:52:27.213+0800","C":"controller/demo.go:37","M":"<nil>"}
+{"L":"INFO","T":"2020-08-31T13:52:27.213+0800","C":"controller/demo.go:38","M":"[0xc0004d47e0 0xc0004d4870 0xc0004d4900 0xc0004d4990 0xc0004d4a20 0xc0004d4ab0 0xc0004d4b40]"}
+{"L":"INFO","T":"2020-08-31T13:52:27.215+0800","C":"controller/demo.go:42","M":"&{gin  server-id-2ed0f5bb-92c0-474a-85a0-28be47efda5a      8000}"}
+{"L":"INFO","T":"2020-08-31T13:52:27.249+0800","C":"controller/demo.go:42","M":"&{gin  server-id-58a8cd6a-ff1b-43d1-ae21-aa774c321e56      8000}"}
+{"L":"INFO","T":"2020-08-31T13:52:27.282+0800","C":"controller/demo.go:42","M":"&{gin  server-id-5ef6acdb-c4c8-4308-b6d4-6aa58c319bf2      8000}"}
+{"L":"INFO","T":"2020-08-31T13:52:27.316+0800","C":"controller/demo.go:42","M":"&{gin  server-id-613bad71-c0fd-46e5-ab4d-80b4f91ae5e9      8000}"}
+{"L":"INFO","T":"2020-08-31T13:52:27.349+0800","C":"controller/demo.go:42","M":"&{gin  server-id-9372f5d3-5e06-4529-bbb1-a2c64efaaae8      8000}"}
+{"L":"INFO","T":"2020-08-31T13:52:27.383+0800","C":"controller/demo.go:42","M":"&{gin  server-id-a938bd8e-e431-4497-837e-58c540ee77eb      8000}"}
+{"L":"INFO","T":"2020-08-31T13:52:27.417+0800","C":"controller/demo.go:42","M":"&{gin  server-id-ad4d122b-13b0-4b94-bcc9-adb7e86a550b      8000}"}
+{"L":"INFO","T":"2020-08-31T13:52:34.753+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T13:52:34.758+0800","C":"controller/demo.go:37","M":"<nil>"}
+{"L":"INFO","T":"2020-08-31T13:52:34.758+0800","C":"controller/demo.go:38","M":"[0xc0000c15f0 0xc0000c1680 0xc0000c1710 0xc0000c17a0 0xc0000c1830 0xc0000c18c0 0xc0000c1950]"}
+{"L":"INFO","T":"2020-08-31T13:52:34.761+0800","C":"controller/demo.go:42","M":"&{gin  server-id-2ed0f5bb-92c0-474a-85a0-28be47efda5a      8000}"}
+{"L":"INFO","T":"2020-08-31T13:52:34.801+0800","C":"controller/demo.go:42","M":"&{gin  server-id-58a8cd6a-ff1b-43d1-ae21-aa774c321e56      8000}"}
+{"L":"INFO","T":"2020-08-31T13:52:34.828+0800","C":"controller/demo.go:42","M":"&{gin  server-id-5ef6acdb-c4c8-4308-b6d4-6aa58c319bf2      8000}"}
+{"L":"INFO","T":"2020-08-31T13:52:34.894+0800","C":"controller/demo.go:42","M":"&{gin  server-id-613bad71-c0fd-46e5-ab4d-80b4f91ae5e9      8000}"}
+{"L":"INFO","T":"2020-08-31T13:52:34.918+0800","C":"controller/demo.go:42","M":"&{gin  server-id-9372f5d3-5e06-4529-bbb1-a2c64efaaae8      8000}"}
+{"L":"INFO","T":"2020-08-31T13:52:34.951+0800","C":"controller/demo.go:42","M":"&{gin  server-id-a938bd8e-e431-4497-837e-58c540ee77eb      8000}"}
+{"L":"INFO","T":"2020-08-31T13:52:35.044+0800","C":"controller/demo.go:42","M":"&{gin  server-id-ad4d122b-13b0-4b94-bcc9-adb7e86a550b      8000}"}
+{"L":"INFO","T":"2020-08-31T13:54:05.427+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T13:54:05.428+0800","C":"controller/demo.go:37","M":"<nil>"}
+{"L":"INFO","T":"2020-08-31T13:54:05.428+0800","C":"controller/demo.go:38","M":"[0xc0004d4510 0xc0004d45a0 0xc0004d46c0 0xc0004d4750 0xc0004d47e0 0xc0004d4870 0xc0004d4900]"}
+{"L":"INFO","T":"2020-08-31T13:54:05.429+0800","C":"controller/demo.go:42","M":"&{gin  server-id-2ed0f5bb-92c0-474a-85a0-28be47efda5a      8000}"}
+{"L":"INFO","T":"2020-08-31T13:54:05.487+0800","C":"controller/demo.go:42","M":"&{gin  server-id-58a8cd6a-ff1b-43d1-ae21-aa774c321e56      8000}"}
+{"L":"INFO","T":"2020-08-31T13:54:05.520+0800","C":"controller/demo.go:42","M":"&{gin  server-id-5ef6acdb-c4c8-4308-b6d4-6aa58c319bf2      8000}"}
+{"L":"INFO","T":"2020-08-31T13:54:05.553+0800","C":"controller/demo.go:42","M":"&{gin  server-id-613bad71-c0fd-46e5-ab4d-80b4f91ae5e9      8000}"}
+{"L":"INFO","T":"2020-08-31T13:54:05.587+0800","C":"controller/demo.go:42","M":"&{gin  server-id-9372f5d3-5e06-4529-bbb1-a2c64efaaae8      8000}"}
+{"L":"INFO","T":"2020-08-31T13:54:05.666+0800","C":"controller/demo.go:42","M":"&{gin  server-id-a938bd8e-e431-4497-837e-58c540ee77eb      8000}"}
+{"L":"INFO","T":"2020-08-31T13:54:05.698+0800","C":"controller/demo.go:42","M":"&{gin  server-id-ad4d122b-13b0-4b94-bcc9-adb7e86a550b      8000}"}
+{"L":"INFO","T":"2020-08-31T13:55:54.241+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-31T13:55:54.246+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-31T13:55:54.246+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-31T13:55:54.246+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-31T13:55:54.246+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-31T13:55:54.246+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-31T13:55:54.266+0800","C":"boot/init.go:118","M":"&{http  gin  广东 一区 开发组  8088 []}"}
+{"L":"INFO","T":"2020-08-31T13:55:54.624+0800","C":"boot/init.go:118","M":"&{grpc  grpc  广东 一区 开发组  8089 []}"}
+{"L":"INFO","T":"2020-08-31T13:55:54.724+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-31T13:55:59.250+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T13:55:59.251+0800","C":"etcd/registry.go:207","M":"0"}
+{"L":"INFO","T":"2020-08-31T13:55:59.251+0800","C":"etcd/registry.go:207","M":"1"}
+{"L":"INFO","T":"2020-08-31T13:55:59.251+0800","C":"etcd/registry.go:207","M":"2"}
+{"L":"INFO","T":"2020-08-31T13:55:59.251+0800","C":"etcd/registry.go:207","M":"3"}
+{"L":"INFO","T":"2020-08-31T13:55:59.251+0800","C":"etcd/registry.go:207","M":"4"}
+{"L":"INFO","T":"2020-08-31T13:55:59.252+0800","C":"etcd/registry.go:207","M":"5"}
+{"L":"INFO","T":"2020-08-31T13:55:59.252+0800","C":"etcd/registry.go:207","M":"6"}
+{"L":"INFO","T":"2020-08-31T13:55:59.252+0800","C":"etcd/registry.go:207","M":"7"}
+{"L":"INFO","T":"2020-08-31T13:55:59.252+0800","C":"etcd/registry.go:207","M":"8"}
+{"L":"INFO","T":"2020-08-31T13:55:59.252+0800","C":"controller/demo.go:37","M":"<nil>"}
+{"L":"INFO","T":"2020-08-31T13:55:59.252+0800","C":"controller/demo.go:38","M":"[0xc0005795f0 0xc000579680 0xc000579710 0xc0005797a0 0xc000579830 0xc0005798c0 0xc000579950 0xc0005799e0 0xc000579a70]"}
+{"L":"INFO","T":"2020-08-31T13:58:26.941+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-31T13:58:26.948+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-31T13:58:26.948+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-31T13:58:26.948+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-31T13:58:26.948+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-31T13:58:26.949+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-31T13:58:26.970+0800","C":"boot/init.go:118","M":"&{http  gin  广东 一区 开发组  8088 []}"}
+{"L":"INFO","T":"2020-08-31T13:58:27.429+0800","C":"boot/init.go:118","M":"&{grpc  grpc  广东 一区 开发组  8089 []}"}
+{"L":"INFO","T":"2020-08-31T13:58:27.463+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-31T13:58:30.761+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T13:58:30.762+0800","C":"etcd/registry.go:198","M":"/sapi/registry"}
+{"L":"INFO","T":"2020-08-31T13:58:30.768+0800","C":"etcd/registry.go:209","M":"0"}
+{"L":"INFO","T":"2020-08-31T13:58:30.768+0800","C":"etcd/registry.go:209","M":"1"}
+{"L":"INFO","T":"2020-08-31T13:58:30.768+0800","C":"etcd/registry.go:209","M":"2"}
+{"L":"INFO","T":"2020-08-31T13:58:30.769+0800","C":"etcd/registry.go:209","M":"3"}
+{"L":"INFO","T":"2020-08-31T13:58:30.769+0800","C":"etcd/registry.go:209","M":"4"}
+{"L":"INFO","T":"2020-08-31T13:58:30.769+0800","C":"etcd/registry.go:209","M":"5"}
+{"L":"INFO","T":"2020-08-31T13:58:30.769+0800","C":"etcd/registry.go:209","M":"6"}
+{"L":"INFO","T":"2020-08-31T13:58:30.769+0800","C":"etcd/registry.go:209","M":"7"}
+{"L":"INFO","T":"2020-08-31T13:58:30.769+0800","C":"etcd/registry.go:209","M":"8"}
+{"L":"INFO","T":"2020-08-31T13:58:30.769+0800","C":"controller/demo.go:37","M":"<nil>"}
+{"L":"INFO","T":"2020-08-31T13:58:30.769+0800","C":"controller/demo.go:38","M":"[0xc000120120 0xc0001201b0 0xc000120240 0xc0001202d0 0xc000120360 0xc0001203f0 0xc000120480 0xc000120510 0xc0001205a0]"}
+{"L":"INFO","T":"2020-08-31T13:58:30.769+0800","C":"controller/demo.go:41","M":"&{grpc grpc   广东 一区 开发组  8089}"}
+{"L":"INFO","T":"2020-08-31T13:58:30.769+0800","C":"controller/demo.go:41","M":"&{gin http   广东 一区 开发组  8088}"}
+{"L":"INFO","T":"2020-08-31T13:58:30.769+0800","C":"controller/demo.go:41","M":"&{gin  server-id-2ed0f5bb-92c0-474a-85a0-28be47efda5a      8000}"}
+{"L":"INFO","T":"2020-08-31T13:58:30.769+0800","C":"controller/demo.go:41","M":"&{gin  server-id-58a8cd6a-ff1b-43d1-ae21-aa774c321e56      8000}"}
+{"L":"INFO","T":"2020-08-31T13:58:30.769+0800","C":"controller/demo.go:41","M":"&{gin  server-id-5ef6acdb-c4c8-4308-b6d4-6aa58c319bf2      8000}"}
+{"L":"INFO","T":"2020-08-31T13:58:30.769+0800","C":"controller/demo.go:41","M":"&{gin  server-id-613bad71-c0fd-46e5-ab4d-80b4f91ae5e9      8000}"}
+{"L":"INFO","T":"2020-08-31T13:58:30.769+0800","C":"controller/demo.go:41","M":"&{gin  server-id-9372f5d3-5e06-4529-bbb1-a2c64efaaae8      8000}"}
+{"L":"INFO","T":"2020-08-31T13:58:30.770+0800","C":"controller/demo.go:41","M":"&{gin  server-id-a938bd8e-e431-4497-837e-58c540ee77eb      8000}"}
+{"L":"INFO","T":"2020-08-31T13:58:30.770+0800","C":"controller/demo.go:41","M":"&{gin  server-id-ad4d122b-13b0-4b94-bcc9-adb7e86a550b      8000}"}
+{"L":"INFO","T":"2020-08-31T14:09:03.265+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-31T14:09:03.269+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-31T14:09:03.269+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-31T14:09:03.269+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-31T14:09:03.269+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-31T14:09:03.270+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-31T14:09:03.292+0800","C":"boot/init.go:118","M":"&{http  gin  广东 一区 开发组  8088 []}"}
+{"L":"INFO","T":"2020-08-31T14:09:03.708+0800","C":"boot/init.go:118","M":"&{grpc  grpc  广东 一区 开发组  8089 []}"}
+{"L":"INFO","T":"2020-08-31T14:09:03.742+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-31T14:09:16.263+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T14:09:16.263+0800","C":"etcd/registry.go:198","M":"/sapi/registry"}
+{"L":"INFO","T":"2020-08-31T14:09:16.264+0800","C":"controller/demo.go:37","M":"<nil>"}
+{"L":"INFO","T":"2020-08-31T14:09:16.264+0800","C":"controller/demo.go:38","M":"[]"}
+{"L":"INFO","T":"2020-08-31T14:12:44.479+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-31T14:12:44.486+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-31T14:12:44.486+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-31T14:12:44.486+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-31T14:12:44.487+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-31T14:12:44.487+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-31T14:12:44.504+0800","C":"boot/init.go:118","M":"&{http  gin  广东 一区 开发组  8088 []}"}
+{"L":"INFO","T":"2020-08-31T14:12:44.504+0800","C":"etcd/registry.go:112","M":"&{http  gin  广东 一区 开发组  8088 []}"}
+{"L":"INFO","T":"2020-08-31T14:12:44.973+0800","C":"boot/init.go:118","M":"&{grpc  grpc  广东 一区 开发组  8089 []}"}
+{"L":"INFO","T":"2020-08-31T14:12:44.973+0800","C":"etcd/registry.go:112","M":"&{grpc  grpc  广东 一区 开发组  8089 []}"}
+{"L":"INFO","T":"2020-08-31T14:12:45.004+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-31T14:12:47.824+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T14:12:47.825+0800","C":"controller/demo.go:37","M":"<nil>"}
+{"L":"INFO","T":"2020-08-31T14:12:47.826+0800","C":"controller/demo.go:38","M":"[0xc00011f830 0xc00011f8c0]"}
+{"L":"INFO","T":"2020-08-31T14:12:47.826+0800","C":"controller/demo.go:41","M":"&{grpc grpc   广东 一区 开发组  8089}"}
+{"L":"INFO","T":"2020-08-31T14:12:47.826+0800","C":"controller/demo.go:41","M":"&{gin http   广东 一区 开发组  8088}"}
+{"L":"INFO","T":"2020-08-31T14:13:53.685+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-31T14:13:53.689+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-31T14:13:53.689+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-31T14:13:53.690+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-31T14:13:53.690+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-31T14:13:53.690+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-31T14:13:53.719+0800","C":"boot/init.go:118","M":"&{http  gin  广东 一区 开发组  8088 []}"}
+{"L":"INFO","T":"2020-08-31T14:13:53.720+0800","C":"etcd/registry.go:111","M":"&{http  gin  广东 一区 开发组  8088 []}"}
+{"L":"INFO","T":"2020-08-31T14:13:54.063+0800","C":"boot/init.go:118","M":"&{grpc  grpc  广东 一区 开发组  8089 []}"}
+{"L":"INFO","T":"2020-08-31T14:13:54.064+0800","C":"etcd/registry.go:111","M":"&{grpc  grpc  广东 一区 开发组  8089 []}"}
+{"L":"INFO","T":"2020-08-31T14:13:54.185+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-31T18:13:00.216+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-31T18:13:00.227+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-31T18:13:00.227+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-31T18:13:00.227+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-31T18:13:00.227+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-31T18:13:00.227+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-31T18:13:00.552+0800","C":"boot/init.go:122","M":"&{http  gin  广东 一区 开发组  8088 []}"}
+{"L":"INFO","T":"2020-08-31T18:13:00.553+0800","C":"etcd/registry.go:35","M":"&{http  gin  广东 一区 开发组  8088 []}"}
+{"L":"INFO","T":"2020-08-31T18:13:00.631+0800","C":"boot/init.go:122","M":"&{grpc  grpc  广东 一区 开发组  8089 []}"}
+{"L":"INFO","T":"2020-08-31T18:13:00.631+0800","C":"etcd/registry.go:35","M":"&{grpc  grpc  广东 一区 开发组  8089 []}"}
+{"L":"INFO","T":"2020-08-31T18:13:00.755+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-31T18:14:39.135+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T18:14:39.136+0800","C":"controller/demo.go:37","M":"context deadline exceeded"}
+{"L":"INFO","T":"2020-08-31T18:14:39.136+0800","C":"controller/demo.go:38","M":"[]"}
+{"L":"INFO","T":"2020-08-31T18:17:37.984+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T18:17:37.985+0800","C":"controller/demo.go:37","M":"context deadline exceeded"}
+{"L":"INFO","T":"2020-08-31T18:17:37.985+0800","C":"controller/demo.go:38","M":"[]"}
+{"L":"INFO","T":"2020-08-31T18:20:01.555+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-31T18:20:01.560+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-31T18:20:01.560+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-31T18:20:01.560+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-31T18:20:01.561+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-31T18:20:01.561+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-31T18:20:01.892+0800","C":"etcd/registry.go:35","M":"&{http  gin  广东 一区 开发组  8088 []}"}
+{"L":"INFO","T":"2020-08-31T18:20:02.268+0800","C":"etcd/registry.go:35","M":"&{grpc  grpc  广东 一区 开发组  8089 []}"}
+{"L":"INFO","T":"2020-08-31T18:20:02.301+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-31T18:20:05.385+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T18:20:05.398+0800","C":"controller/demo.go:37","M":"<nil>"}
+{"L":"INFO","T":"2020-08-31T18:20:05.398+0800","C":"controller/demo.go:38","M":"[0xc000547b00]"}
+{"L":"INFO","T":"2020-08-31T18:20:05.398+0800","C":"controller/demo.go:41","M":"&{grpc grpc   广东 一区 开发组  8089}"}
+{"L":"INFO","T":"2020-08-31T18:21:52.384+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T18:21:52.385+0800","C":"controller/demo.go:37","M":"<nil>"}
+{"L":"INFO","T":"2020-08-31T18:21:52.385+0800","C":"controller/demo.go:38","M":"[]"}
+{"L":"INFO","T":"2020-08-31T18:21:59.681+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T18:21:59.683+0800","C":"controller/demo.go:37","M":"<nil>"}
+{"L":"INFO","T":"2020-08-31T18:21:59.683+0800","C":"controller/demo.go:38","M":"[]"}
+{"L":"INFO","T":"2020-08-31T18:22:06.088+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T18:22:06.089+0800","C":"controller/demo.go:37","M":"<nil>"}
+{"L":"INFO","T":"2020-08-31T18:22:06.089+0800","C":"controller/demo.go:38","M":"[]"}
+{"L":"INFO","T":"2020-08-31T18:25:41.556+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-31T18:25:41.561+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-31T18:25:41.562+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-31T18:25:41.562+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-31T18:25:41.562+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-31T18:25:41.562+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-31T18:25:41.892+0800","C":"etcd/registry.go:35","M":"&{http  gin  广东 一区 开发组  8088 []}"}
+{"L":"INFO","T":"2020-08-31T18:25:42.068+0800","C":"etcd/registry.go:35","M":"&{grpc  grpc  广东 一区 开发组  8089 []}"}
+{"L":"INFO","T":"2020-08-31T18:25:42.102+0800","C":"bootstrap/boot.go:71","M":"start successfully"}
+{"L":"INFO","T":"2020-08-31T18:25:46.653+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T18:25:46.654+0800","C":"controller/demo.go:37","M":"<nil>"}
+{"L":"INFO","T":"2020-08-31T18:25:46.654+0800","C":"controller/demo.go:38","M":"[0xc00015d7a0 0xc00015d830]"}
+{"L":"INFO","T":"2020-08-31T18:25:46.654+0800","C":"controller/demo.go:41","M":"&{grpc grpc   广东 一区 开发组  8089}"}
+{"L":"INFO","T":"2020-08-31T18:25:46.654+0800","C":"controller/demo.go:41","M":"&{gin http   广东 一区 开发组  8088}"}
+{"L":"INFO","T":"2020-08-31T18:25:59.940+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T18:25:59.941+0800","C":"controller/demo.go:37","M":"<nil>"}
+{"L":"INFO","T":"2020-08-31T18:25:59.941+0800","C":"controller/demo.go:38","M":"[]"}
+{"L":"INFO","T":"2020-08-31T18:26:15.687+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T18:26:15.689+0800","C":"controller/demo.go:37","M":"<nil>"}
+{"L":"INFO","T":"2020-08-31T18:26:15.689+0800","C":"controller/demo.go:38","M":"[]"}
+{"L":"INFO","T":"2020-08-31T18:26:31.574+0800","C":"controller/demo.go:34","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"INFO","T":"2020-08-31T18:26:31.575+0800","C":"controller/demo.go:37","M":"<nil>"}
+{"L":"INFO","T":"2020-08-31T18:26:31.578+0800","C":"controller/demo.go:38","M":"[]"}
+{"L":"INFO","T":"2020-08-31T18:27:50.699+0800","C":"redis/redis.go:45","M":"初始化redis完成"}
+{"L":"INFO","T":"2020-08-31T18:27:50.706+0800","C":"model/model.go:58","M":"初始化数据库连接完成"}
+{"L":"INFO","T":"2020-08-31T18:27:50.706+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_query` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:65]"}
+{"L":"INFO","T":"2020-08-31T18:27:50.706+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_create` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:66]"}
+{"L":"INFO","T":"2020-08-31T18:27:50.707+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_update` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:67]"}
+{"L":"INFO","T":"2020-08-31T18:27:50.707+0800","C":"model/model.go:27","M":"[info [info] replacing callback `gorm:after_delete` from E:/GoWork/src/sapi/pkg/tracer/tracer.go:68]"}
+{"L":"INFO","T":"2020-08-31T18:27:51.029+0800","C":"etcd/registry.go:35","M":"&{http  gin  广东 一区 开发组  8088 []}"}
+{"L":"INFO","T":"2020-08-31T18:27:51.061+0800","C":"etcd/registry.go:35","M":"&{grpc  grpc  广东 一区 开发组  8089 []}"}
+{"L":"INFO","T":"2020-08-31T18:27:51.194+0800","C":"bootstrap/boot.go:71","M":"start successfully"}

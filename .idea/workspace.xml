@@ -2,47 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5382ae-b677-485d-b5d0-c0ab4b286b18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/clientcredentials/clientcredentials.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/clientcredentials/clientcredentials.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/etcd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/etcd/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/grpc_client/go" beforeDir="false" afterPath="$PROJECT_DIR$/example/grpc_client/go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/grpc_client/grpc_client.exe" beforeDir="false" afterPath="$PROJECT_DIR$/example/grpc_client/grpc_client.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/grpc_client/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/grpc_client/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/grpc_server/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/grpc_server/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/hello/boot/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/hello/boot/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/hello/boot/context.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/hello/boot/context.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/hello/boot/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/hello/boot/engine/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/hello/boot/context.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/hello/boot/engine/context.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmd/hello/boot/init.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/hello/boot/init.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/hello/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/hello/config/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmd/hello/controller/demo.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/hello/controller/demo.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/hello/controller/greeter.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/hello/controller/greeter.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/hello/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/hello/hello.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmd/hello/logs/app-debug.logger" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/hello/logs/app-debug.logger" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/hello/logs/app-errors.logger" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/hello/logs/app-errors.logger" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmd/hello/logs/app-info.logger" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/hello/logs/app-info.logger" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/hello/router/http.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/hello/router/http.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/k_consumer/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/k_consumer/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/k_producer/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/k_producer/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/logger/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/logger/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/oath2_server/logs/app-error.logger" beforeDir="false" afterPath="$PROJECT_DIR$/example/oath2_server/logs/app-error.logger" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/oath2_server/logs/app-info.logger" beforeDir="false" afterPath="$PROJECT_DIR$/example/oath2_server/logs/app-info.logger" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/oath2_server/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/oath2_server/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/oath2_server/static/auth.html" beforeDir="false" afterPath="$PROJECT_DIR$/example/oath2_server/static/auth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/oath2_server/static/auth.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/oath2_server/static/auth.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/oath2_server/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/example/oath2_server/static/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/oath2_server/static/login.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/oath2_server/static/login.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/oath2_server/static/token.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/oath2_server/static/token.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/oauth2_client/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/oauth2_client/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/r_consumer/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/r_consumer/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/r_producer/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/r_producer/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/sapi/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/sapi/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/sapi/sapi.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/sapi/sapi.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/test2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/test2/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/test3/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/test3/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/test4/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/test4/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/log.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/logger.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/oauth2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/bootstrap/boot.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/bootstrap/boot.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/etcdv3/etcd.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/etcdv3/etcd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/etcdv3/registry.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/etcdv3/registry.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/client/etcdv3/watcher.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/client/etcdv3/watcher.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/registry/etcd/registry.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/registry/etcd/registry.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/registry/etcd/watcher.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/registry/etcd/watcher.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/registry/options.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/registry/registry.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/registry/registry.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/registry/watcher.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/registry/watcher.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/server/grpc/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/server/grpc/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/server/server.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,19 +76,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GoWork\src\sapi\cmd\hello\boot" />
+      <recent name="E:\GoWork\src\sapi\cmd\hello\engine" />
+      <recent name="E:\GoWork\src\sapi\pkg\server" />
+      <recent name="E:\GoWork\src\sapi\pkg\engine" />
+      <recent name="E:\GoWork\src\sapi\pkg" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\GoWork\src\sapi\cmd\hello\config" />
       <recent name="E:\GoWork\src\sapi\cmd\hello\init" />
       <recent name="E:\GoWork\src\sapi\cmd\hello" />
       <recent name="E:\GoWork\src\sapi\pkg\client\grpc" />
       <recent name="E:\GoWork\src\sapi\pkg\client\etcdv3" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\GoWork\src\sapi\example" />
-      <recent name="E:\GoWork\src\sapi\cmd\hello\init" />
-      <recent name="E:\GoWork\src\sapi\ph" />
-      <recent name="E:\GoWork\src\sapi\cmd\grpc_server" />
-      <recent name="E:\GoWork\src\sapi\pkg\client" />
     </key>
   </component>
   <component name="RunManager">
@@ -185,28 +163,28 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="147" y="183" key="FileChooserDialogImpl/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1598512150713" />
-    <state width="1556" height="265" key="GridCell.Tab.0.bottom" timestamp="1598608758819">
+    <state width="1556" height="263" key="GridCell.Tab.0.bottom" timestamp="1598870534895">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="265" key="GridCell.Tab.0.bottom/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1598608758819" />
+    <state width="1556" height="263" key="GridCell.Tab.0.bottom/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1598870534895" />
     <state width="1556" height="215" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1594801424080" />
     <state width="1876" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594958502381" />
-    <state width="1556" height="265" key="GridCell.Tab.0.center" timestamp="1598608758818">
+    <state width="1556" height="263" key="GridCell.Tab.0.center" timestamp="1598870534894">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="265" key="GridCell.Tab.0.center/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1598608758818" />
+    <state width="1556" height="263" key="GridCell.Tab.0.center/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1598870534894" />
     <state width="1556" height="215" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1594801424080" />
     <state width="1876" height="295" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594958502381" />
-    <state width="1556" height="265" key="GridCell.Tab.0.left" timestamp="1598608758818">
+    <state width="1556" height="263" key="GridCell.Tab.0.left" timestamp="1598870534893">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="265" key="GridCell.Tab.0.left/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1598608758818" />
+    <state width="1556" height="263" key="GridCell.Tab.0.left/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1598870534893" />
     <state width="1556" height="215" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1594801424079" />
     <state width="1876" height="295" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594958502380" />
-    <state width="1556" height="265" key="GridCell.Tab.0.right" timestamp="1598608758818">
+    <state width="1556" height="263" key="GridCell.Tab.0.right" timestamp="1598870534894">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="265" key="GridCell.Tab.0.right/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1598608758818" />
+    <state width="1556" height="263" key="GridCell.Tab.0.right/-1920.-180.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1598870534894" />
     <state width="1556" height="215" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1594801424080" />
     <state width="1876" height="295" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594958502381" />
     <state width="1556" height="268" key="GridCell.Tab.1.bottom" timestamp="1595672042178">

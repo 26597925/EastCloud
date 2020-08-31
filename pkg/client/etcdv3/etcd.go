@@ -113,12 +113,12 @@ func (client *Client) Update(ctx context.Context, key, value, oldValue string) e
 	return nil
 }
 
-func (client *Client) NewWatch(key string) (*watcher, error) {
+func (client *Client) NewWatch(key string) (*Watcher, error) {
 	ctx, cancel := context.WithCancel(context.Background())
 	wc := clientv3.NewWatcher(client.Client)
 	exit := make(chan bool, 1)
 
-	w := &watcher{
+	w := &Watcher{
 		ch:          make(chan *Event),
 		exit:        exit,
 	}
@@ -135,23 +135,30 @@ func (client *Client) NewWatch(key string) (*watcher, error) {
 	return w, nil
 }
 
-func (client *Client) NewWatchWithPrefixKey(prefixKey string) (*watcher, error) {
+func (client *Client) NewWatchWithPrefixKey(prefixKey string) (*Watcher, error) {
+	ctx, cancel := context.WithCancel(context.Background())
 	wc := clientv3.NewWatcher(client.Client)
+	exit := make(chan bool, 1)
 
-	w := &watcher{
+	w := &Watcher{
 		ch:          make(chan *Event),
-		exit:        make(chan bool),
+		exit:        exit,
 	}
 
-	ch := wc.Watch(context.Background(), prefixKey, clientv3.WithPrefix())
+	go func() {
+		<-exit
+		cancel()
+	}()
+
+	ch := wc.Watch(ctx, prefixKey, clientv3.WithPrefix())
 
 	go w.run(wc, ch)
 
 	return w, nil
 }
 
-func (client *Client) NewRegistry() *registry {
-	r := &registry{
+func (client *Client) NewRegistry() *Registry {
+	r := &Registry{
 		client: client,
 		timeout: client.config.DialTimeout,
 		register: make(map[string]int),
@@ -161,11 +168,8 @@ func (client *Client) NewRegistry() *registry {
 	return r
 }
 
-func (client *Client) transfer(from string, to string, value string) (bool, error) {
-	ctx, cancelFunc := context.WithTimeout(context.Background(), client.config.DialTimeout)
-	defer cancelFunc()
-
-	txnResponse, err := client.Txn(ctx).If(
+func (client *Client) Transfer(from string, to string, value string) (bool, error) {
+	txnResponse, err := client.Txn(context.Background()).If(
 		clientv3.Compare(clientv3.Value(from), "=", value)).
 		Then(
 			clientv3.OpDelete(from),

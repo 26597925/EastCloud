@@ -6,11 +6,12 @@ import (
 	"github.com/gin-gonic/gin"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/examples/helloworld/helloworld"
+	"sapi/cmd/hello/boot/engine"
 	gCliect "sapi/pkg/client/grpc"
+	"sapi/pkg/logger"
 )
 
 type Demo struct {
-
 }
 
 func (d *Demo) Query(c *gin.Context) {
@@ -30,5 +31,12 @@ func (d *Demo) Query(c *gin.Context) {
 }
 
 func (d *Demo) List(c *gin.Context) {
+	rgy := engine.GetServiceContext().GetRegistry()
+	svrs, err := rgy.ListServices()
+	logger.Info(err)
+	logger.Info(svrs)
 
+	for _, svr := range svrs {
+		logger.Info(svr)
+	}
 }

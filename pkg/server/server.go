@@ -8,7 +8,7 @@ import (
 
 type Option func(*Options)
 
-func NewServer(option api.Option) api.Server{
+func NewServer(option api.Option) api.Server {
 	if option.GetDriver() == "gin" {
 		return gin.NewServer(option)
 	} else if option.GetDriver() == "grpc" {

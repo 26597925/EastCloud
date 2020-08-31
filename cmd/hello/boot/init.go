@@ -1,13 +1,16 @@
 package boot
 
 import (
+	"sapi/cmd/hello/boot/engine"
 	"sapi/cmd/hello/router"
 	"sapi/pkg/bootstrap"
 	"sapi/pkg/bootstrap/flag"
+	"sapi/pkg/client/etcdv3"
 	"sapi/pkg/client/redis"
 	capi "sapi/pkg/config/api"
 	"sapi/pkg/logger"
 	"sapi/pkg/model"
+	"sapi/pkg/registry"
 	"sapi/pkg/registry/etcd"
 	"sapi/pkg/registry/multi"
 	"sapi/pkg/server"
@@ -22,23 +25,23 @@ func Init (flags ...flag.Flag) bootstrap.EngineContext {
 		EnvVar:  "CONFIG_PATH",
 		Default: "config/config.yml",
 	}}
-	sc.fg = append(fg, flags...)
+	engine.SetFlag(append(fg, flags...))
 
-	return sc
+	return engine.GetServiceContext()
 }
 
 func InitFlag () error {
 	fs := flag.NewFlagSet()
-	fs.Register(sc.fg...)
+	fs.Register(engine.GetFlag() ...)
 	err := fs.Parse()
 	if err == nil {
-		sc.fs = fs
+		engine.SetFlagSet(fs)
 	}
 	return err
 }
 
 func InitConfig() error {
-	cf, err := parseConfig(sc.fs)
+	cf, err := engine.ParseConfig(engine.GetFlagSet())
 	if err != nil {
 		return err
 	}
@@ -57,12 +60,12 @@ func InitConfig() error {
 			}
 		}
 	}()
-	sc.cf = cf
+	engine.SetConfig(cf)
 	return err
 }
 
 func InitLog() error {
-	opts := logger.NewOptions(logger.Merge(GetConfig().Logger))
+	opts := logger.NewOptions(logger.Merge(engine.GetConfig().Logger))
 	log, err := logger.NewZap(opts)
 
 	if err != nil {
@@ -74,16 +77,16 @@ func InitLog() error {
 }
 
 func InitRedis() error {
-	return redis.Init(GetContext(), GetConfig().Redis)
+	return redis.Init(engine.GetContext(), engine.GetConfig().Redis)
 }
 
 func InitModel() error {
-	return model.Init(GetConfig().Orm)
+	return model.Init(engine.GetConfig().Orm)
 }
 
 func InitTracer() error {
-	tracer.AddHookSpanCtx(GetContext())
-	err := tracer.Init(GetConfig().Tracer)
+	tracer.AddHookSpanCtx(engine.GetContext())
+	err := tracer.Init(engine.GetConfig().Tracer)
 	return err
 }
 
@@ -93,7 +96,7 @@ func InitServer() error {
 	 	"http": router.HttpRouter,
 	 }
 
-	for _, svrOpt := range GetConfig().Server {
+	for _, svrOpt := range engine.GetConfig().Server {
 		svr := server.NewServer(svrOpt)
 		err := svr.Init()
 		if err != nil {
@@ -101,20 +104,22 @@ func InitServer() error {
 		}
 
 		svr.Handler(handlers[svr.GetOption().GetName()])
-		AddServe(svr)
+		engine.AddServe(svr)
 	}
 	return nil
 }
 
 func InitRegistry() error {
-	rsy, err := etcd.NewRegistry(GetConfig().Registry)
+	cli := etcdv3.NewOptions().Build()
+	opt := &registry.Options{Timeout:3, TTL: 5}
+	rsy, err := etcd.NewRegistry(opt, cli)
 	if err != nil {
 		return err
 	}
 
-	sc.rgy = multi.New(rsy)
-	for _, svrOpt := range GetConfig().Server {
-		err = sc.rgy.Register(svrOpt)
+	engine.SetRegistry(multi.New(rsy))
+	for _, svrOpt := range engine.GetConfig().Server {
+		err = engine.GetServiceContext().GetRegistry().Register(svrOpt)
 		if err != nil {
 			return err
 		}

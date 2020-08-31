@@ -2,121 +2,39 @@ package etcd
 
 import (
 	"context"
-	"crypto/tls"
-	"crypto/x509"
 	"encoding/json"
 	"fmt"
-	retcd "github.com/coreos/etcd/clientv3"
-	"io/ioutil"
+	"sapi/pkg/client/etcdv3"
+	"sapi/pkg/logger"
 	"sapi/pkg/registry"
 	"sapi/pkg/server/api"
 	"sync"
-	"time"
 )
 
 type etcdRegistry struct {
-	options *registry.Options
+	opts 	  *registry.Options
 
-	client *retcd.Client
-	lease  retcd.LeaseID
+	client    *etcdv3.Client
 	register  sync.Map
-
-	timeout time.Duration
 }
 
-func configure(e *etcdRegistry, opts *registry.Options) error {
+func NewRegistry(opts *registry.Options, client *etcdv3.Client) (registry.Registry, error) {
 	if opts.Prefix == "" {
 		opts.Prefix = registry.DefaultPrefix
 	}
 
-	endpoints := opts.Endpoints
-	if len(opts.Endpoints) == 0 {
-		endpoints = []string{"localhost:2379"}
-	}
-
-	e.timeout = time.Duration(opts.Timeout) * time.Second
-	if opts.Timeout == 0 {
-		e.timeout = 3 * time.Second
-	}
-
-	config := retcd.Config{
-		Endpoints:   endpoints,
-		DialTimeout: e.timeout,
-		DialKeepAliveTime:    10 * time.Second,
-		DialKeepAliveTimeout: 3 * time.Second,
-	}
-
-	if opts.BasicAuth {
-		config.Username = opts.Username
-		config.Password = opts.Password
-	}
-
-	tlsEnabled := false
-	tlsConfig := &tls.Config{
-		InsecureSkipVerify: false,
-	}
-
-	if opts.CaCert != "" {
-		certBytes, err := ioutil.ReadFile(opts.CaCert)
-		if err != nil {
-			return err
-		}
-
-		caCertPool := x509.NewCertPool()
-		ok := caCertPool.AppendCertsFromPEM(certBytes)
-
-		if ok {
-			tlsConfig.RootCAs = caCertPool
-		}
-		tlsEnabled = true
-	}
-
-	if opts.CertFile != "" && opts.KeyFile != "" {
-		tlsCert, err := tls.LoadX509KeyPair(opts.CertFile, opts.KeyFile)
-		if err != nil {
-			return err
-		}
-		tlsConfig.Certificates = []tls.Certificate{tlsCert}
-		tlsEnabled = true
-	}
-
-	if tlsEnabled {
-		config.TLS = tlsConfig
-	}
-
-	client, err := retcd.New(config)
-	if err != nil {
-		return err
-	}
-
-	e.client = client
-	return nil
-}
-
-func NewRegistry(opts *registry.Options) (registry.Registry, error) {
 	e := &etcdRegistry{
-		options: opts,
-	}
-
-	err := configure(e, opts)
-	if err != nil {
-		return nil, err
+		opts: opts,
+		client: client,
 	}
 
 	return e, nil
 }
 
 func (e *etcdRegistry) Register(opt api.Option) (err error) {
-	ctx, cancel := context.WithTimeout(context.Background(),  e.timeout)
-	defer cancel()
+	logger.Info(opt)
 
-	if e.lease > 0 {
-		if _, err := e.client.KeepAliveOnce(context.TODO(), e.lease); err != nil {
-			return err
-		}
-	}
-
-	key := fmt.Sprintf("%s/%s/%s", e.options.Prefix, e.Type(), opt.GetName())
+	key := fmt.Sprintf("%s/%s/%s", e.opts.Prefix, e.Type(), opt.GetName())
 	service := &registry.Service{
 		Driver:    opt.GetDriver(),
 		Name:      opt.GetName(),
@@ -129,23 +47,12 @@ func (e *etcdRegistry) Register(opt api.Option) (err error) {
 		Port:      opt.GetPort(),
 	}
 	val, err := json.Marshal(service)
-
-	var lgr *retcd.LeaseGrantResponse
-	if e.options.TTL > 0 {
-		ttl := time.Duration(e.options.TTL) * time.Second
-		lgr, err = e.client.Grant(ctx, int64(ttl.Seconds()))
-		if err != nil {
-			return err
-		}
-		e.lease = lgr.ID
+	if err != nil {
+		return err
 	}
 
-	var opOptions []retcd.OpOption
-	if e.lease != 0 {
-		opOptions = append(opOptions, retcd.WithLease(e.lease))
-	}
-
-	if _, err = e.client.Put(ctx, key, string(val), opOptions...); err != nil {
+	err = e.client.NewRegistry().Register(key, string(val), e.opts.TTL)
+	if err != nil {
 		return err
 	}
 
@@ -154,11 +61,8 @@ func (e *etcdRegistry) Register(opt api.Option) (err error) {
 }
 
 func (e *etcdRegistry) Deregister(sv *registry.Service) error {
-	ctx, cancel := context.WithTimeout(context.Background(), e.timeout)
-	defer cancel()
-
-	key := fmt.Sprintf("%s/%s/%s", e.options.Prefix, e.Type(), sv.Name)
-	_, err := e.client.Delete(ctx, key)
+	key := fmt.Sprintf("%s/%s/%s", e.opts.Prefix, e.Type(), sv.Name)
+	err := e.client.NewRegistry().Deregister(key)
 	if err == nil {
 		e.register.Delete(key)
 	}
@@ -166,22 +70,14 @@ func (e *etcdRegistry) Deregister(sv *registry.Service) error {
 }
 
 func (e *etcdRegistry) GetService(name string) (*registry.Service, error) {
-	ctx, cancel := context.WithTimeout(context.Background(), e.timeout)
-	defer cancel()
-
-	key := fmt.Sprintf("%s/%s/%s", e.options.Prefix, e.Type(), name)
-
-	rsp, err := e.client.Get(ctx, key)
+	key := fmt.Sprintf("%s/%s/%s", e.opts.Prefix, e.Type(), name)
+	rsp, err := e.client.GetValue(context.Background(), key)
 	if err != nil {
 		return nil, err
 	}
 
-	if rsp == nil || len(rsp.Kvs) == 0 {
-		return nil, fmt.Errorf("source not found: %s", key)
-	}
-
 	var s *registry.Service
-	err = json.Unmarshal(rsp.Kvs[0].Value, &s)
+	err = json.Unmarshal(rsp, &s)
 	if err != nil {
 		return nil, err
 	}
@@ -190,21 +86,15 @@ func (e *etcdRegistry) GetService(name string) (*registry.Service, error) {
 }
 
 func (e *etcdRegistry) ListServices() ([]*registry.Service, error) {
-	ctx, cancel := context.WithTimeout(context.Background(), e.timeout)
-	defer cancel()
-
-	rsp, err := e.client.Get(ctx, e.options.Prefix, retcd.WithPrefix(), retcd.WithSerializable())
+	rsp, err := e.client.GetPrefix(context.Background(), e.opts.Prefix)
 	if err != nil {
 		return nil, err
 	}
-	if len(rsp.Kvs) == 0 {
-		return []*registry.Service{}, nil
-	}
 
-	services := make([]*registry.Service, 0, len(rsp.Kvs))
-	for _, n := range rsp.Kvs {
+	services := make([]*registry.Service, 0, len(rsp))
+	for _, n := range rsp {
 		var s *registry.Service
-		err = json.Unmarshal(n.Value, &s)
+		err = json.Unmarshal(n, &s)
 
 		if err != nil {
 			continue
@@ -236,12 +126,6 @@ func (e *etcdRegistry) Close() (err error) {
 	})
 	wg.Wait()
 
-	if e.lease > 0 {
-		ctx, cancel := context.WithTimeout(context.Background(), time.Second)
-		_, err = e.client.Revoke(ctx, e.lease)
-		cancel()
-		return err
-	}
 	return nil
 }
 

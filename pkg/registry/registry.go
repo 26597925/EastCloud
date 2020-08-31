@@ -2,6 +2,10 @@ package registry
 
 import "sapi/pkg/server/api"
 
+var (
+	DefaultPrefix = "/sapi/registry"
+)
+
 type Registry interface {
 	Register(option api.Option) error
 	Deregister(sv *Service) error

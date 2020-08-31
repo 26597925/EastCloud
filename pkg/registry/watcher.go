@@ -1,7 +1,7 @@
 package registry
 
 type Result struct {
-	Action  string
+	Type  	int
 	Service *Service
 }
 

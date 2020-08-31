@@ -19,10 +19,10 @@ type EngineContext interface {
 type Engine struct {
 	registry registry.Registry
 
-	ec 			EngineContext
-	initOnce    sync.Once
-	startOnce   sync.Once
-	stopOnce    sync.Once
+	ec        EngineContext
+	initOnce  sync.Once
+	startOnce sync.Once
+	stopOnce  sync.Once
 
 	signalHooker func(app signal.App)
 }
