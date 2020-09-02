@@ -30,14 +30,13 @@ func (ew *etcdWatcher) Next() (*registry.Result, error) {
 		}
 
 		var service *registry.Service
-		json.Unmarshal(ev.Value, &service)
-
-		if service == nil {
-			continue
+		if ev.Type != etcdv3.KeyDelete {
+			json.Unmarshal(ev.Value, &service)
 		}
 
 		return &registry.Result{
 			Type:  ev.Type,
+			Key:   ev.Key,
 			Service: service,
 		}, nil
 	}

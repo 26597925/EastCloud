@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"fmt"
 	"sapi/pkg/client/etcdv3"
-	"sapi/pkg/logger"
 	"sapi/pkg/registry"
 	"sapi/pkg/server/api"
+	"sort"
 	"sync"
 )
 
@@ -32,9 +32,7 @@ func NewRegistry(opts *registry.Options, client *etcdv3.Client) (registry.Regist
 }
 
 func (e *etcdRegistry) Register(opt api.Option) (err error) {
-	logger.Info(opt)
-
-	key := fmt.Sprintf("%s/%s/%s", e.opts.Prefix, e.Type(), opt.GetName())
+	key := fmt.Sprintf("%s/%s/%s/%s", e.opts.Prefix, e.Type(), opt.GetName(), opt.GetId())
 	service := &registry.Service{
 		Driver:    opt.GetDriver(),
 		Name:      opt.GetName(),
@@ -61,7 +59,7 @@ func (e *etcdRegistry) Register(opt api.Option) (err error) {
 }
 
 func (e *etcdRegistry) Deregister(sv *registry.Service) error {
-	key := fmt.Sprintf("%s/%s/%s", e.opts.Prefix, e.Type(), sv.Name)
+	key := fmt.Sprintf("%s/%s/%s/%s", e.opts.Prefix, e.Type(), sv.Name, sv.ID)
 	err := e.client.NewRegistry().Deregister(key)
 	if err == nil {
 		e.register.Delete(key)
@@ -69,20 +67,26 @@ func (e *etcdRegistry) Deregister(sv *registry.Service) error {
 	return err
 }
 
-func (e *etcdRegistry) GetService(name string) (*registry.Service, error) {
+func (e *etcdRegistry) GetService(name string) ([]*registry.Service, error) {
 	key := fmt.Sprintf("%s/%s/%s", e.opts.Prefix, e.Type(), name)
-	rsp, err := e.client.GetValue(context.Background(), key)
+	rsp, err := e.client.GetPrefix(context.Background(), key)
 	if err != nil {
 		return nil, err
 	}
 
-	var s *registry.Service
-	err = json.Unmarshal(rsp, &s)
-	if err != nil {
-		return nil, err
+	services := make([]*registry.Service, 0, len(rsp))
+	for _, n := range rsp {
+		var s *registry.Service
+		err = json.Unmarshal(n, &s)
+
+		if err != nil {
+			continue
+		}
+
+		services = append(services, s)
 	}
 
-	return s, nil
+	return services, nil
 }
 
 func (e *etcdRegistry) ListServices() ([]*registry.Service, error) {
@@ -102,6 +106,8 @@ func (e *etcdRegistry) ListServices() ([]*registry.Service, error) {
 
 		services = append(services, s)
 	}
+
+	sort.Slice(services, func(i, j int) bool { return services[i].Name < services[j].Name })
 
 	return services, nil
 }

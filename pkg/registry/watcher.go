@@ -2,6 +2,7 @@ package registry
 
 type Result struct {
 	Type  	int
+	Key   	string
 	Service *Service
 }
 

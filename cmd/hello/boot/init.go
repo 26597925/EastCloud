@@ -1,6 +1,8 @@
 package boot
 
 import (
+	"github.com/google/uuid"
+	"math"
 	"sapi/cmd/hello/boot/engine"
 	"sapi/cmd/hello/router"
 	"sapi/pkg/bootstrap"
@@ -16,6 +18,7 @@ import (
 	"sapi/pkg/server"
 	"sapi/pkg/server/api"
 	"sapi/pkg/tracer"
+	"time"
 )
 
 func Init (flags ...flag.Flag) bootstrap.EngineContext {
@@ -97,6 +100,10 @@ func InitServer() error {
 	 }
 
 	for _, svrOpt := range engine.GetConfig().Server {
+		if svrOpt.Id == "" {
+			svrOpt.Id = uuid.Must(uuid.NewRandom()).String()
+		}
+
 		svr := server.NewServer(svrOpt)
 		err := svr.Init()
 		if err != nil {
@@ -110,8 +117,10 @@ func InitServer() error {
 }
 
 func InitRegistry() error {
+	var ttl int64
+	ttl = 6
 	cli := etcdv3.NewOptions().Build()
-	opt := &registry.Options{Timeout:3, TTL: 5}
+	opt := &registry.Options{Timeout:3, TTL: ttl}
 	rsy, err := etcd.NewRegistry(opt, cli)
 	if err != nil {
 		return err
@@ -119,10 +128,29 @@ func InitRegistry() error {
 
 	engine.SetRegistry(multi.New(rsy))
 	for _, svrOpt := range engine.GetConfig().Server {
-		err = engine.GetServiceContext().GetRegistry().Register(svrOpt)
+		t := time.Duration(math.Ceil(float64(ttl/3))) * time.Second
+		err = register(map[string]interface{}{"opt": svrOpt, "ttl": t})
 		if err != nil {
 			return err
 		}
 	}
+
+	engine.GetTimingWheel().Start()
+	return nil
+}
+
+func register(param map[string]interface{}) error {
+	svrOpt := param["opt"].(*server.Options)
+	err := engine.GetServiceContext().GetRegistry().Register(svrOpt)
+	if err != nil {
+		logger.Error("service registry fail")
+		return err
+	}
+
+	ttl := param["ttl"].(time.Duration)
+	if ttl > 0 {
+		engine.GetTimingWheel().NewWheel(map[string]interface{}{"opt": svrOpt, "ttl": ttl}, ttl, register)
+	}
+
 	return nil
 }

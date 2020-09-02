@@ -196,3 +196,102 @@
 {"L":"DEBUG","T":"2020-08-31T18:25:41.557+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
 {"L":"DEBUG","T":"2020-08-31T18:27:50.200+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
 {"L":"DEBUG","T":"2020-08-31T18:27:50.702+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-08-31T18:41:53.487+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-08-31T18:41:53.901+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-01T09:08:42.300+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-01T09:10:42.030+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-01T09:10:42.510+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-01T09:42:07.711+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-01T09:42:08.453+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-01T09:43:04.158+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-01T09:43:04.608+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-01T09:43:34.677+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-01T09:43:35.111+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-01T09:45:31.793+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-01T09:45:32.262+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-01T09:47:36.510+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-01T09:47:36.964+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-01T09:49:00.656+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-01T09:49:01.071+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-01T11:45:32.232+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-01T11:45:32.719+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-01T11:48:28.364+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-01T11:48:28.757+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-01T11:54:19.137+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-01T11:54:19.636+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-01T13:31:53.726+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-01T13:31:54.541+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-01T13:35:56.131+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-01T13:35:56.769+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-01T13:36:35.742+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-01T13:36:36.379+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-01T13:37:03.689+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-01T13:37:04.134+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-01T13:37:37.388+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-01T13:37:37.907+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-01T13:38:06.697+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-01T13:38:07.121+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-01T15:01:58.819+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-01T15:01:59.312+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-01T15:06:10.321+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-01T15:06:10.755+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-01T15:08:36.166+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-01T15:08:36.671+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-01T15:11:15.034+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-01T15:11:15.493+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-01T15:14:14.554+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-01T15:14:14.996+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-01T15:17:19.255+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-01T15:17:19.765+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-01T15:24:49.074+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-01T15:24:49.600+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-01T15:25:33.057+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-01T15:25:33.493+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-01T15:26:01.395+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-01T15:26:01.815+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-01T15:26:23.651+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-01T15:26:24.081+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-01T15:33:51.993+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-01T15:33:52.446+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-01T15:38:05.901+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-01T15:38:06.460+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-02T10:47:29.140+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-02T10:47:29.602+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-02T10:49:33.930+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-02T10:49:34.363+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-02T10:52:33.366+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-02T10:52:33.790+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-02T10:56:46.794+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-02T10:56:47.259+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-02T10:57:16.456+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-02T10:57:16.862+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-02T10:59:02.950+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-02T10:59:03.452+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-02T11:00:01.197+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-02T11:00:01.670+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-02T11:01:10.165+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-02T11:01:10.636+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-02T11:01:48.843+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-02T11:01:49.294+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-02T11:11:39.596+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-02T11:11:40.012+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-02T11:16:22.204+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-02T11:16:22.645+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-02T11:17:50.652+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-02T11:17:51.081+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-02T11:28:37.068+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-02T11:28:37.656+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-02T11:48:16.909+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-02T11:48:17.325+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-02T12:02:23.175+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-02T12:02:23.644+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-02T14:12:56.193+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-02T14:12:56.652+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-02T15:03:56.378+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-02T15:03:56.855+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-02T15:09:56.748+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-02T15:09:57.269+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-02T15:11:50.943+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-02T15:11:51.405+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}
+{"L":"DEBUG","T":"2020-09-02T15:27:14.338+0800","C":"redis/redis.go:30","M":"&{single mylove1688 0 3 3 {tcp localhost:6379} {master  []} { []} {0 0}}"}
+{"L":"DEBUG","T":"2020-09-02T15:27:14.788+0800","C":"model/model.go:39","M":"&{mysql 127.0.0.1 3306 test root  utf8 t_ }"}

@@ -5,6 +5,8 @@ import (
 	"sapi/pkg/bootstrap/flag"
 	"sapi/pkg/registry"
 	"sapi/pkg/server/api"
+	"sapi/pkg/util/timer"
+	"time"
 )
 
 var (
@@ -20,12 +22,16 @@ type ServiceContext struct {
 
 	srv []api.Server
 	rgy registry.Registry
+
+	tw *timer.TimingWheel
 }
 
 func newServiceContext() *ServiceContext {
+	tw := timer.NewTimingWheel(time.Millisecond * 10)
 	return &ServiceContext{
 		ctx: context.Background(),
 		srv: make([]api.Server, 0),
+		tw: tw,
 	}
 }
 
@@ -63,6 +69,10 @@ func SetConfig(cf *Config) {
 
 func GetConfig() *Config {
 	return sc.cf
+}
+
+func GetTimingWheel() *timer.TimingWheel {
+	return sc.tw
 }
 
 func SetRegistry(rgy registry.Registry) {

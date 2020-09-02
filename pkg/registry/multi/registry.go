@@ -36,7 +36,7 @@ func (m *multiRegistry) Deregister(sv *registry.Service) error {
 	return eg.Wait()
 }
 
-func (m *multiRegistry) GetService(name string) (sv *registry.Service, err error) {
+func (m *multiRegistry) GetService(name string) (sv []*registry.Service, err error) {
 	var eg errgroup.Group
 	for _, registry := range m.registries {
 		eg.Go(func() error {

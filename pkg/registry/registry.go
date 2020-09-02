@@ -9,7 +9,7 @@ var (
 type Registry interface {
 	Register(option api.Option) error
 	Deregister(sv *Service) error
-	GetService(name string) (*Service, error)
+	GetService(name string) ([]*Service, error)
 	ListServices() ([]*Service, error)
 	Watch() (Watcher, error)
 	Close() error
