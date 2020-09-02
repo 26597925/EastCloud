@@ -27,7 +27,7 @@
 # 感谢
   非常感谢micro,jupiter,oauth2,oauth2-server等开发团队和优秀的开源项目，因为我借鉴了很多他们的优点以及相关代码。
 # 微信进群讨论
-  ![](http://w.haruharu.cn/pKs60#)
+  ![Sapi讨论小组.png](https://i.loli.net/2020/09/02/ZT7LbIriQzNPdoK.png)
 ## Quick Start
   查看cmd目录的hello子服务项目，其他样例可以查看example文件目录。
 
