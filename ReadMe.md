@@ -16,6 +16,7 @@
   * oauth2的客户端和服务端
   * 数据模型
   * 消息订阅与发布和延时队列
+  * 生成子服务工具
 # 框架愿景
   完善的后台管理，包含了资源中心，任务中心，配置中心，网关中心，监控中心，服务中心。
   * 资源中心：集成各种云服务接口和添加自建的云服务管理。
@@ -30,6 +31,15 @@
   ![Sapi讨论小组.png](https://i.loli.net/2020/09/02/ZT7LbIriQzNPdoK.png)
 ## Quick Start
   查看cmd目录的hello子服务项目，其他样例可以查看example文件目录。
-
+  1. 编译sapi工具
+ ```shell
+ go build cmd/sapi/sapi.go
+ ```
+     
+  2.生成子服务项目:
+   ```shell
+  cmd/sapi/sapi -build=test -path=E:\GoWork\src\sapi\cmd
+  ```
+  (sapi一定要和sapi.cache同目录)
 ## License
   Sapi is Apache 2.0 licensed.
