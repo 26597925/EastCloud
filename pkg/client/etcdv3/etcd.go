@@ -34,6 +34,11 @@ func newClient(options *Options) (*Client, error) {
 	}, nil
 }
 
+func (client *Client) ConnectStatus() error {
+	_, err := client.Status(context.Background(), client.config.Endpoints[0])
+	return err
+}
+
 func (client *Client) GetValue(ctx context.Context, key string) ([]byte,  error) {
 	rp, err := client.Get(ctx, key)
 	if err != nil {
@@ -61,8 +66,8 @@ func (client *Client) GetPrefix(ctx context.Context, prefix string) (map[string]
 	return vars, nil
 }
 
-func (client *Client) GetPrefixLimit(ctx context.Context, prefix string, limit int64) (map[string][]byte, error) {
-	resp, err := client.Get(ctx, prefix, clientv3.WithPrefix(), clientv3.WithLimit(limit))
+func (client *Client) GetPrefixLimit(ctx context.Context, key string, limit int64) (map[string][]byte, error) {
+	resp, err := client.Get(ctx, key, clientv3.WithPrevKV(), clientv3.WithFromKey(), clientv3.WithLimit(limit))
 	if err != nil {
 		return nil, err
 	}
@@ -73,6 +78,24 @@ func (client *Client) GetPrefixLimit(ctx context.Context, prefix string, limit i
 	}
 
 	return vars, nil
+}
+
+func (client *Client) GetFirstKey(ctx context.Context, prefix string) (string, error) {
+	resp, err := client.Get(ctx, prefix, clientv3.WithFirstKey()...)
+	if err != nil {
+		return "", err
+	}
+
+	return string(resp.Kvs[0].Key), nil
+}
+
+func (client *Client) GetCount(ctx context.Context, prefix string) (int64, error) {
+	resp, err := client.Get(ctx, prefix, clientv3.WithPrefix(), clientv3.WithCountOnly())
+	if err != nil {
+		return 0, err
+	}
+
+	return resp.Count, nil
 }
 
 // put a key not exist

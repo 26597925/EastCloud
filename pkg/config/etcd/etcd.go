@@ -17,6 +17,8 @@ var (
 )
 //https://github.com/mistaker/etcdTool
 type Options struct {
+	Name string
+
 	Endpoints []string
 	Timeout   int
 	Format    string
@@ -123,7 +125,7 @@ func NewEtcd(options *Options) (*Etcd, error){
 		prefix = DefaultPrefix
 	}
 
-	prefix = fmt.Sprintf("%v/%v/%v", prefix, mode, format)
+	prefix = fmt.Sprintf("%v/%v/%v/%v", prefix, options.Name, mode, format)
 
 	return &Etcd{
 		debug:       options.Debug,
