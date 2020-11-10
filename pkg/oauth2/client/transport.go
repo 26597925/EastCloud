@@ -2,8 +2,8 @@ package client
 
 import (
 	"errors"
+	"github.com/26597925/EastCloud/pkg/logger"
 	"net/http"
-	"sapi/pkg/logger"
 	"sync"
 )
 var cancelOnce sync.Once

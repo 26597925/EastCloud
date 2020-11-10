@@ -2,10 +2,10 @@ package flag
 
 import (
 	"flag"
+	fg "github.com/26597925/EastCloud/pkg/bootstrap/flag"
+	"github.com/26597925/EastCloud/pkg/config/api"
+	"github.com/26597925/EastCloud/pkg/util/stringext"
 	"github.com/imdario/mergo"
-	fg "sapi/pkg/bootstrap/flag"
-	"sapi/pkg/config/api"
-	"sapi/pkg/util/stringext"
 	"strings"
 )
 

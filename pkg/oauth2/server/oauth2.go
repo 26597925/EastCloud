@@ -3,14 +3,14 @@ package server
 import (
 	"context"
 	"fmt"
+	"github.com/26597925/EastCloud/pkg/oauth2/api"
+	"github.com/26597925/EastCloud/pkg/oauth2/server/errors"
+	"github.com/26597925/EastCloud/pkg/oauth2/server/generates"
+	"github.com/26597925/EastCloud/pkg/oauth2/server/stores"
+	"github.com/26597925/EastCloud/pkg/oauth2/server/token"
+	"github.com/26597925/EastCloud/pkg/util/crypto"
 	"net/http"
 	"net/url"
-	"sapi/pkg/oauth2/api"
-	"sapi/pkg/oauth2/server/errors"
-	"sapi/pkg/oauth2/server/generates"
-	"sapi/pkg/oauth2/server/stores"
-	"sapi/pkg/oauth2/server/token"
-	"sapi/pkg/util/crypto"
 	"strings"
 )
 

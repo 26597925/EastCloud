@@ -3,10 +3,10 @@ package generates
 import (
 	"context"
 	"encoding/base64"
+	"github.com/26597925/EastCloud/pkg/oauth2/server/errors"
+	"github.com/26597925/EastCloud/pkg/oauth2/server/token"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/google/uuid"
-	"sapi/pkg/oauth2/server/errors"
-	"sapi/pkg/oauth2/server/token"
 	"strings"
 	"time"
 )

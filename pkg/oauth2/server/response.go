@@ -2,8 +2,8 @@ package server
 
 import (
 	"encoding/json"
+	"github.com/26597925/EastCloud/pkg/oauth2/server/errors"
 	"net/http"
-	"sapi/pkg/oauth2/server/errors"
 )
 
 type Response struct {

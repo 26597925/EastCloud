@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
+	"github.com/26597925/EastCloud/cmd/sapi/build"
+	"github.com/26597925/EastCloud/cmd/sapi/create"
+	"github.com/26597925/EastCloud/pkg/bootstrap/flag"
 	"os"
-	"sapi/cmd/sapi/build"
-	"sapi/cmd/sapi/create"
-	"sapi/pkg/bootstrap/flag"
 )
 
 func main() {

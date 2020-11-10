@@ -1,8 +1,8 @@
 package multi
 
 import (
+	"github.com/26597925/EastCloud/pkg/registry"
 	"golang.org/x/sync/errgroup"
-	"sapi/pkg/registry"
 )
 
 type multiWatcher struct {

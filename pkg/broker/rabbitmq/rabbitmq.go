@@ -2,9 +2,9 @@ package rabbitmq
 
 import (
 	"errors"
+	"github.com/26597925/EastCloud/pkg/broker"
 	"github.com/google/uuid"
 	"github.com/streadway/amqp"
-	"sapi/pkg/broker"
 	"sync"
 	"time"
 )

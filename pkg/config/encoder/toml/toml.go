@@ -2,7 +2,7 @@ package toml
 
 import (
 	"bytes"
-	"sapi/pkg/config/encoder"
+	"github.com/26597925/EastCloud/pkg/config/encoder"
 
 	"github.com/BurntSushi/toml"
 )

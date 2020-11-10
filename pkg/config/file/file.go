@@ -2,10 +2,10 @@ package file
 
 import (
 	"errors"
+	"github.com/26597925/EastCloud/pkg/config/api"
+	"github.com/26597925/EastCloud/pkg/util/fileext"
 	"io/ioutil"
 	"os"
-	"sapi/pkg/config/api"
-	"sapi/pkg/util/fileext"
 )
 
 func Parse(path string, data interface{}) error {

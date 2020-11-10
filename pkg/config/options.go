@@ -1,6 +1,6 @@
 package config
 
-import "sapi/pkg/config/etcd"
+import "github.com/26597925/EastCloud/pkg/config/etcd"
 
 type Options struct {
 	Type    string

@@ -42,8 +42,10 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	meter := exporter.Provider().Meter("example")
+
+	meter := exporter.MeterProvider().Meter("example")
 	ctx := context.Background()
+
 
 
 	// Use two instruments
@@ -62,10 +64,11 @@ func main() {
 			metric.WithDescription("Updown values"),
 		)
 
-	_ = metric.Must(meter).NewInt64SumObserver("int.sumobserver.sum", func(_ context.Context, result metric.Int64ObserverResult) {
-		result.Observe(-1, label.String("A", "B"))
-	})
-
+	_ = metric.Must(meter).NewInt64ValueObserver("observer.lastvalue",
+		func(ctx context.Context, result metric.Int64ObserverResult) {
+			result.Observe(10)
+		},
+	)
 	counter.Add(ctx, 100, label.String("key", "value"))
 	counter.Add(ctx, 100, label.String("key", "value"))
 

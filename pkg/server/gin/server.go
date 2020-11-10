@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	"github.com/26597925/EastCloud/pkg/server/api"
 	"github.com/gin-gonic/gin"
 	"net/http"
-	"sapi/pkg/server/api"
 )
 
 type Server struct {

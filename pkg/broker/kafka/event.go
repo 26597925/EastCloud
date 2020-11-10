@@ -1,9 +1,9 @@
 package kafka
 
 import (
+	"github.com/26597925/EastCloud/pkg/broker"
 	"github.com/Shopify/sarama"
 	"github.com/prometheus/common/log"
-	"sapi/pkg/broker"
 )
 
 type Event  struct {
@@ -46,7 +46,7 @@ func (*consumerGroupHandler) Cleanup(_ sarama.ConsumerGroupSession) error { retu
 
 func (h *consumerGroupHandler) ConsumeClaim(sess sarama.ConsumerGroupSession, claim sarama.ConsumerGroupClaim) error {
 	for msg := range claim.Messages() {
-		headers := make(map[string]string)
+		headers := make(map[string]interface{})
 		for _,v := range msg.Headers {
 			headers[string(v.Key)] = string(v.Value)
 		}

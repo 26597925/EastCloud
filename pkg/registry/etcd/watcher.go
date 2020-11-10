@@ -3,8 +3,8 @@ package etcd
 import (
 	"encoding/json"
 	"errors"
-	"sapi/pkg/client/etcdv3"
-	"sapi/pkg/registry"
+	"github.com/26597925/EastCloud/pkg/client/etcdv3"
+	"github.com/26597925/EastCloud/pkg/registry"
 )
 
 type etcdWatcher struct {

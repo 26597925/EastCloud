@@ -1,10 +1,10 @@
 package server
 
 import (
+	"github.com/26597925/EastCloud/pkg/oauth2/api"
+	"github.com/26597925/EastCloud/pkg/oauth2/server/errors"
+	"github.com/26597925/EastCloud/pkg/util/stringext"
 	"net/http"
-	"sapi/pkg/oauth2/api"
-	"sapi/pkg/oauth2/server/errors"
-	"sapi/pkg/util/stringext"
 	"strconv"
 	"strings"
 )

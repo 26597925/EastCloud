@@ -2,7 +2,7 @@ package json
 
 import (
 	"encoding/json"
-	"sapi/pkg/config/encoder"
+	"github.com/26597925/EastCloud/pkg/config/encoder"
 )
 
 type jsonEncoder struct{}

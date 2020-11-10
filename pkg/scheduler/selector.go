@@ -2,7 +2,7 @@ package scheduler
 
 import (
 	"errors"
-	"sapi/pkg/util/rand"
+	"github.com/26597925/EastCloud/pkg/util/rand"
 )
 
 const (

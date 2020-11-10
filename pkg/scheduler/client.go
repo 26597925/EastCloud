@@ -2,9 +2,9 @@ package scheduler
 
 import (
 	"encoding/json"
+	"github.com/26597925/EastCloud/pkg/client/etcdv3"
+	"github.com/26597925/EastCloud/pkg/logger"
 	"github.com/google/uuid"
-	"sapi/pkg/client/etcdv3"
-	"sapi/pkg/logger"
 )
 
 type ClientInfo struct {

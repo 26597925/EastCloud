@@ -1,7 +1,7 @@
 package token
 
 import (
-	"sapi/pkg/oauth2/api"
+	"github.com/26597925/EastCloud/pkg/oauth2/api"
 	"strings"
 	"time"
 )

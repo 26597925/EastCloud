@@ -1,8 +1,8 @@
 package server
 
 import (
+	"github.com/26597925/EastCloud/pkg/oauth2/api"
 	"net/url"
-	"sapi/pkg/oauth2/api"
 	"time"
 )
 

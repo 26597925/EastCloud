@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"context"
 	"encoding/base64"
-	"sapi/pkg/oauth2/server/token"
+	"github.com/26597925/EastCloud/pkg/oauth2/server/token"
 	"strings"
 
 	"github.com/google/uuid"

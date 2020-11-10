@@ -2,9 +2,9 @@ package etcd
 
 import (
 	"context"
+	"github.com/26597925/EastCloud/pkg/config/api"
 	cetcd "github.com/coreos/etcd/clientv3"
 	"github.com/coreos/etcd/mvcc/mvccpb"
-	"sapi/pkg/config/api"
 	"sync"
 )
 

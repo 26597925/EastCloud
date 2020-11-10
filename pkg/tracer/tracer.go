@@ -2,6 +2,10 @@ package tracer
 
 import (
 	"context"
+	"github.com/26597925/EastCloud/pkg/client/redis"
+	"github.com/26597925/EastCloud/pkg/logger"
+	"github.com/26597925/EastCloud/pkg/model"
+	"github.com/26597925/EastCloud/pkg/tracer/hook"
 	r "github.com/go-redis/redis/v8"
 	"go.opentelemetry.io/otel/exporters/stdout"
 	"go.opentelemetry.io/otel/exporters/trace/jaeger"
@@ -11,10 +15,6 @@ import (
 	"log"
 	"os"
 	"runtime"
-	"sapi/pkg/client/redis"
-	"sapi/pkg/logger"
-	"sapi/pkg/model"
-	"sapi/pkg/tracer/hook"
 	"sync"
 )
 

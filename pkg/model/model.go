@@ -2,9 +2,9 @@ package model
 
 import (
 	"fmt"
+	"github.com/26597925/EastCloud/pkg/logger"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
-	"sapi/pkg/logger"
 	"sync"
 )
 

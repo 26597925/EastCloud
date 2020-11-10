@@ -1,9 +1,9 @@
 package env
 
 import (
+	"github.com/26597925/EastCloud/pkg/config/api"
+	"github.com/26597925/EastCloud/pkg/util/stringext"
 	"os"
-	"sapi/pkg/config/api"
-	"sapi/pkg/util/stringext"
 	"strconv"
 	"strings"
 

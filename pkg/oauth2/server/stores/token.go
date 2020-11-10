@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"github.com/26597925/EastCloud/pkg/oauth2/server/token"
+	"github.com/26597925/EastCloud/pkg/store"
 	"github.com/google/uuid"
-	"sapi/pkg/oauth2/server/token"
-	"sapi/pkg/store"
 	"time"
 )
 

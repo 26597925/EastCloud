@@ -1,6 +1,6 @@
 package registry
 
-import "sapi/pkg/server/api"
+import "github.com/26597925/EastCloud/pkg/server/api"
 
 var (
 	DefaultPrefix = "/sapi/registry"

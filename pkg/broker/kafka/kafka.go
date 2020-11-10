@@ -3,10 +3,10 @@ package kafka
 import (
 	"context"
 	"errors"
+	"github.com/26597925/EastCloud/pkg/broker"
 	"github.com/Shopify/sarama"
 	"github.com/google/uuid"
 	"github.com/prometheus/common/log"
-	"sapi/pkg/broker"
 	"sync"
 )
 

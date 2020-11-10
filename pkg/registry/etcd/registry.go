@@ -4,9 +4,9 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"sapi/pkg/client/etcdv3"
-	"sapi/pkg/registry"
-	"sapi/pkg/server/api"
+	"github.com/26597925/EastCloud/pkg/client/etcdv3"
+	"github.com/26597925/EastCloud/pkg/registry"
+	"github.com/26597925/EastCloud/pkg/server/api"
 	"sort"
 	"sync"
 )

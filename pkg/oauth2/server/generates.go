@@ -2,14 +2,14 @@ package server
 
 import (
 	"context"
-	"sapi/pkg/logger"
-	"sapi/pkg/oauth2/api"
-	"sapi/pkg/oauth2/server/errors"
-	"sapi/pkg/oauth2/server/generates"
-	"sapi/pkg/oauth2/server/stores"
-	"sapi/pkg/oauth2/server/token"
-	"sapi/pkg/store"
-	"sapi/pkg/store/buntdb"
+	"github.com/26597925/EastCloud/pkg/logger"
+	"github.com/26597925/EastCloud/pkg/oauth2/api"
+	"github.com/26597925/EastCloud/pkg/oauth2/server/errors"
+	"github.com/26597925/EastCloud/pkg/oauth2/server/generates"
+	"github.com/26597925/EastCloud/pkg/oauth2/server/stores"
+	"github.com/26597925/EastCloud/pkg/oauth2/server/token"
+	"github.com/26597925/EastCloud/pkg/store"
+	"github.com/26597925/EastCloud/pkg/store/buntdb"
 	"strings"
 	"time"
 )

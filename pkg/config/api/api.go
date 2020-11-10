@@ -2,11 +2,11 @@ package api
 
 import (
 	"errors"
-	"sapi/pkg/config/encoder"
-	"sapi/pkg/config/encoder/hcl"
-	"sapi/pkg/config/encoder/json"
-	"sapi/pkg/config/encoder/toml"
-	"sapi/pkg/config/encoder/yaml"
+	"github.com/26597925/EastCloud/pkg/config/encoder"
+	"github.com/26597925/EastCloud/pkg/config/encoder/hcl"
+	"github.com/26597925/EastCloud/pkg/config/encoder/json"
+	"github.com/26597925/EastCloud/pkg/config/encoder/toml"
+	"github.com/26597925/EastCloud/pkg/config/encoder/yaml"
 )
 
 //通过type来设置是否来读取配置，文件就不读线上的，

@@ -2,7 +2,7 @@ package generates
 
 import (
 	"context"
-	"sapi/pkg/oauth2/server/token"
+	"github.com/26597925/EastCloud/pkg/oauth2/server/token"
 )
 
 type (

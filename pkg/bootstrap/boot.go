@@ -2,12 +2,12 @@ package bootstrap
 
 import (
 	"context"
+	"github.com/26597925/EastCloud/pkg/bootstrap/signal"
+	"github.com/26597925/EastCloud/pkg/logger"
+	"github.com/26597925/EastCloud/pkg/registry"
+	"github.com/26597925/EastCloud/pkg/server/api"
+	"github.com/26597925/EastCloud/pkg/util/goext"
 	"golang.org/x/sync/errgroup"
-	"sapi/pkg/bootstrap/signal"
-	"sapi/pkg/logger"
-	"sapi/pkg/registry"
-	"sapi/pkg/server/api"
-	"sapi/pkg/util/goext"
 	"sync"
 )
 

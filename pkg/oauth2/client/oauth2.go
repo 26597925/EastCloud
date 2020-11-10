@@ -3,9 +3,9 @@ package client
 import (
 	"bytes"
 	"context"
+	"github.com/26597925/EastCloud/pkg/oauth2/api"
 	"net/http"
 	"net/url"
-	"sapi/pkg/oauth2/api"
 	"strings"
 )
 

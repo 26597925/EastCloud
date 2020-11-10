@@ -1,8 +1,8 @@
 package rabbitmq
 
 import (
+	"github.com/26597925/EastCloud/pkg/broker"
 	"github.com/streadway/amqp"
-	"sapi/pkg/broker"
 )
 
 type Event struct {

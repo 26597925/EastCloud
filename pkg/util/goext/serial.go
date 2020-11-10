@@ -2,9 +2,9 @@ package goext
 
 import (
 	"fmt"
+	"github.com/26597925/EastCloud/pkg/util/stringext"
 	"github.com/pkg/errors"
 	"go.uber.org/multierr"
-	"sapi/pkg/util/stringext"
 )
 
 func SerialWithError(fns ...func() error) func() error {

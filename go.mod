@@ -1,4 +1,4 @@
-module sapi
+module github.com/26597925/EastCloud
 
 go 1.14
 
@@ -28,6 +28,7 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/common v0.13.0
 	github.com/rcrowley/go-metrics v0.0.0-20200313005456-10cdbea86bc0 // indirect
+	github.com/robfig/cron/v3 v3.0.1
 	github.com/satori/go.uuid v1.2.0 // indirect
 	github.com/streadway/amqp v1.0.0
 	github.com/stretchr/testify v1.6.1
@@ -37,20 +38,18 @@ require (
 	github.com/uber/jaeger-client-go v2.24.0+incompatible
 	github.com/uber/jaeger-lib v2.2.0+incompatible // indirect
 	//go.etcd.io/etcd v2.3.8+incompatible // indirect
-	go.opentelemetry.io/otel v0.11.0
-	go.opentelemetry.io/otel/exporters/metric/prometheus v0.11.0
-	go.opentelemetry.io/otel/exporters/stdout v0.11.0
-	go.opentelemetry.io/otel/exporters/trace/jaeger v0.11.0
-	go.opentelemetry.io/otel/exporters/trace/zipkin v0.11.0
-	go.opentelemetry.io/otel/sdk v0.11.0
+	go.opentelemetry.io/otel v0.13.0
+	go.opentelemetry.io/otel/exporters/metric/prometheus v0.13.0
+	go.opentelemetry.io/otel/exporters/stdout v0.13.0
+	go.opentelemetry.io/otel/exporters/trace/jaeger v0.13.0
+	go.opentelemetry.io/otel/exporters/trace/zipkin v0.13.0
+	go.opentelemetry.io/otel/sdk v0.13.0
 	go.uber.org/multierr v1.5.0
 	go.uber.org/zap v1.15.0
 	golang.org/x/crypto v0.0.0-20200709230013-948cd5f35899 // indirect
 	golang.org/x/net v0.0.0-20200822124328-c89045814202
 	golang.org/x/sync v0.0.0-20200625203802-6e8e738ad208
-	golang.org/x/sys v0.0.0-20200824131525-c12d262b63d8 // indirect
 	google.golang.org/appengine v1.6.6
-	google.golang.org/genproto v0.0.0-20200825200019-8632dd797987 // indirect
 	google.golang.org/grpc v1.31.1
 	google.golang.org/protobuf v1.25.0
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0

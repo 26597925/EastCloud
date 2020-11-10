@@ -2,9 +2,9 @@ package rabbitmq
 
 import (
 	"crypto/tls"
+	"github.com/26597925/EastCloud/pkg/broker"
 	"github.com/streadway/amqp"
 	"regexp"
-	"sapi/pkg/broker"
 	"strings"
 	"sync"
 	"time"

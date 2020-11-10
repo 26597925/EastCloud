@@ -2,8 +2,8 @@ package etcdv3
 
 import (
 	"crypto/tls"
+	"github.com/26597925/EastCloud/pkg/util/crypto"
 	"github.com/coreos/etcd/clientv3"
-	"sapi/pkg/util/crypto"
 	"time"
 )
 

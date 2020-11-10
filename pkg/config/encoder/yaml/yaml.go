@@ -1,8 +1,8 @@
 package yaml
 
 import (
+	"github.com/26597925/EastCloud/pkg/config/encoder"
 	"github.com/ghodss/yaml"
-	"sapi/pkg/config/encoder"
 )
 
 type yamlEncoder struct{}

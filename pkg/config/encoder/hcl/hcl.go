@@ -2,8 +2,8 @@ package hcl
 
 import (
 	"encoding/json"
+	"github.com/26597925/EastCloud/pkg/config/encoder"
 	"github.com/hashicorp/hcl"
-	"sapi/pkg/config/encoder"
 )
 
 type hclEncoder struct{}

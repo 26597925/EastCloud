@@ -2,13 +2,17 @@ package crypto
 
 import (
 	"crypto/hmac"
+	"crypto/md5"
 	"crypto/sha1"
 	"crypto/sha256"
 	"crypto/tls"
 	"crypto/x509"
 	"encoding/base64"
+	"encoding/hex"
 	"errors"
+	"io"
 	"io/ioutil"
+	"os"
 )
 
 func HmacSha1(keyStr, text string) string {
@@ -60,4 +64,24 @@ func ReadTls(certFile, keyFile string) ([]tls.Certificate, error){
 		return nil, err
 	}
 	return []tls.Certificate{tlsCert}, nil
+}
+
+func Md5Read(read io.Reader) string {
+	md5h := md5.New()
+	io.Copy(md5h, read)
+	return hex.EncodeToString(md5h.Sum([]byte(nil)))
+}
+
+func Md5File(path string) (string, error) {
+	file, err := os.Open(path)
+	if err != nil {
+		file.Close()
+		return "", err
+	}
+	md5h := md5.New()
+	io.Copy(md5h, file)
+	file.Sync()
+	file.Close()
+
+	return hex.EncodeToString(md5h.Sum([]byte(nil))), nil
 }

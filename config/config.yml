@@ -1,3 +1,4 @@
+name: "demo"
 mode: "debug"
 maxProc: 0
 

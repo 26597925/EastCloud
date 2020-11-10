@@ -1,9 +1,9 @@
 package server
 
 import (
-	"sapi/pkg/server/api"
-	"sapi/pkg/server/gin"
-	"sapi/pkg/server/grpc"
+	"github.com/26597925/EastCloud/pkg/server/api"
+	"github.com/26597925/EastCloud/pkg/server/gin"
+	"github.com/26597925/EastCloud/pkg/server/grpc"
 )
 
 type Option func(*Options)

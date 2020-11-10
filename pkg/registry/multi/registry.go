@@ -1,9 +1,9 @@
 package multi
 
 import (
+	"github.com/26597925/EastCloud/pkg/registry"
+	"github.com/26597925/EastCloud/pkg/server/api"
 	"golang.org/x/sync/errgroup"
-	"sapi/pkg/registry"
-	"sapi/pkg/server/api"
 )
 
 type multiRegistry struct {
