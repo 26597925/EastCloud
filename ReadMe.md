@@ -1,7 +1,7 @@
-# Sapi [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
+# EastCloud [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
 
-# Sapi项目介绍
-  Sapi是一个集成了各种服务组件的框架，各种组件之间尽量做到相互独立，每个单独的模块直接有相应的配置项，建立子服务
+# EastCloud项目介绍
+  EastCloud是一个集成了各种服务组件的框架，各种组件之间尽量做到相互独立，每个单独的模块直接有相应的配置项，建立子服务
 的时候通过配置连接各个配置项进行项目集成。
 # 框架设计思考
   在工作中，用过很多框架，很多语言的都有用过和自研过，在用go的微服务框架的时候，发现了很多问题，比如对于初学者学习
@@ -28,7 +28,7 @@
 # 感谢
   非常感谢micro,jupiter,oauth2,oauth2-server等开发团队和优秀的开源项目，因为我借鉴了很多他们的优点以及相关代码。
 # 微信进群讨论
-  ![Sapi讨论小组.png](https://i.loli.net/2020/09/02/ZT7LbIriQzNPdoK.png)
+  ![Sapi讨论小组.png]()
 ## Quick Start
   查看cmd目录的hello子服务项目，其他样例可以查看example文件目录。
   1. 编译sapi工具
